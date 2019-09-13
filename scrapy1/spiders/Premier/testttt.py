@@ -9,7 +9,7 @@ class ClubsSpider(scrapy.Spider):
 
     def parse(self, response):
 
-        # 四个按钮分别对应四个系列属性(概况、进攻、防守、组织)，先获取到每个系列属性的 20 个 tr
+        # 四个按钮分别对应四个系列属性(概况、进攻、防守、组织)，先获取到每个系列属性的 20 个 tr...
         clubs_summary = response.xpath("//*[@id='seasonSummary']/tbody/tr")     # -----概况
         clubs_offensive = response.xpath("//*[@id='seasonOffensive']/tbody/tr") # -----进攻
         clubs_defensive = response.xpath("//*[@id='seasonDefensive']/tbody/tr")  # -----防守

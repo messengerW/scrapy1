@@ -53,36 +53,37 @@ class Test1Item(scrapy.Item):
 
 # 球队，2019-2020赛季
 class Test2Item(scrapy.Item):
-    name = scrapy.Field()
+    a_no = scrapy.Field()                         # 排名
+    b_name = scrapy.Field()
     # shoot_total = scrapy.Field()                # 射门数
     # possession = scrapy.Field()                 # 控球率
-    pass_completed_rate = scrapy.Field()        # 传球成功率
+    c_pass_completed_rate = scrapy.Field()        # 传球成功率
     # great_opportunity = scrapy.Field()          # 绝佳机会
-    flying_header = scrapy.Field()              # 争顶成功
-    mark = scrapy.Field()                       # 评分
+    d_flying_header = scrapy.Field()              # 争顶成功
+    e_mark = scrapy.Field()                       # 评分
 
-    goals = scrapy.Field()                      # 进球
-    shoot_total = scrapy.Field()                # 射门
-    shoot_on_target = scrapy.Field()            # 射正
-    great_opportunity = scrapy.Field()          # 绝佳机会
-    seize_the_opportunity = scrapy.Field()      # 机会把握率
-    dribble = scrapy.Field()                    # 过人
-    violated = scrapy.Field()                   # 被侵犯
-    offside = scrapy.Field()                    # 越位
+    f_goals = scrapy.Field()                      # 进球
+    g_shoot_total = scrapy.Field()                # 射门
+    h_shoot_on_target = scrapy.Field()            # 射正
+    i_great_opportunity = scrapy.Field()          # 绝佳机会
+    j_seize_the_opportunity = scrapy.Field()      # 机会把握率
+    k_dribble = scrapy.Field()                    # 过人
+    l_violated = scrapy.Field()                   # 被侵犯
+    m_offside = scrapy.Field()                    # 越位
 
-    fumble = scrapy.Field()                     # 失球
-    be_shoot = scrapy.Field()                   # 被射门
-    intercept = scrapy.Field()                  # 抢断
-    clearance_kick = scrapy.Field()             # 解围
-    foul = scrapy.Field()                       # 犯规
-    critical_miss = scrapy.Field()              # 致命失误
+    n_fumble = scrapy.Field()                     # 失球
+    o_be_shoot = scrapy.Field()                   # 被射门
+    p_intercept = scrapy.Field()                  # 抢断
+    q_clearance_kick = scrapy.Field()             # 解围
+    r_foul = scrapy.Field()                       # 犯规
+    s_critical_miss = scrapy.Field()              # 致命失误
 
-    assisting = scrapy.Field()                  # 助攻
-    key_pass = scrapy.Field()                   # 关键传球
-    possession = scrapy.Field()                 # 控球率
-    pass_total = scrapy.Field()                 # 传球数
-    PS = scrapy.Field()
-    FTPS = scrapy.Field()
+    t_assisting = scrapy.Field()                  # 助攻
+    u_key_pass = scrapy.Field()                   # 关键传球
+    v_possession = scrapy.Field()                 # 控球率
+    w_pass_total = scrapy.Field()                 # 传球数
+    x_PS = scrapy.Field()
+    y_FTPS = scrapy.Field()
 
 class ClubItem(scrapy.Item):
     rank = scrapy.Field()

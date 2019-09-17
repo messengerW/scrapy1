@@ -47,11 +47,14 @@ class PlayerItem(scrapy.Item):
     games = scrapy.Field()
     goals = scrapy.Field()
 
-# 球员，2019-2020赛季
+# 球员，2019-2020赛季，球员
 class Test1Item(scrapy.Item):
+    no = scrapy.Field()
     name = scrapy.Field()
+    club = scrapy.Field()
+    age = scrapy.Field()
 
-# 球队，2019-2020赛季
+# 球队，2019-2020赛季，俱乐部
 class Test2Item(scrapy.Item):
     a_no = scrapy.Field()                         # 排名
     b_name = scrapy.Field()

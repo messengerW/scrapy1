@@ -38,25 +38,64 @@ class DoubanItem(scrapy.Item):
     info = scrapy.Field()
 
 
-class PlayerItem(scrapy.Item):
-    no = scrapy.Field()
-    name = scrapy.Field()
-    club = scrapy.Field()
-    age = scrapy.Field()
-    position = scrapy.Field()
-    games = scrapy.Field()
-    goals = scrapy.Field()
+# class PlayerItem(scrapy.Item):
+#     no = scrapy.Field()
+#     name = scrapy.Field()
+#     club = scrapy.Field()
+#     age = scrapy.Field()
+#     position = scrapy.Field()
+#     games = scrapy.Field()
+#     goals = scrapy.Field()
 
 # 球员，2019-2020赛季，球员
-class Test1Item(scrapy.Item):
-    no = scrapy.Field()
-    name = scrapy.Field()
-    mark = scrapy.Field()
-    club = scrapy.Field()
-    age = scrapy.Field()
+class PlayerItem(scrapy.Item):
+
+    playerId = scrapy.Field()                   # 球员id
+    matchId = scrapy.Field()                    # 比赛id
+    teamId = scrapy.Field()                     # 球队id
+    playerMainPosition = scrapy.Field()         # 主要位置
+    playerName = scrapy.Field()                 # 球员名字
+    teamName = scrapy.Field()                   # 所属俱乐部
+    offsides = scrapy.Field()                   # 越位
+    offsideWon = scrapy.Field()                 #
+    bigChanceCreated = scrapy.Field()           # 创造机会
+    seriousError = scrapy.Field()               # 严重失误
+    thBall = scrapy.Field()                     #
+    longBall = scrapy.Field()                   #
+    crosses = scrapy.Field()                    #
+    passes = scrapy.Field()                     # 传球数
+    keyPasses = scrapy.Field()                  # 关键传球
+    yelCards = scrapy.Field()                   # 黄宝石卡
+    redCards = scrapy.Field()                   # 红宝石卡
+    aerialsWon = scrapy.Field()                 # 争顶成功
+    rate = scrapy.Field()                       # 评分
+    interceptions = scrapy.Field()              # 拦截
+    age = scrapy.Field()                        # 年龄
+    clearances = scrapy.Field()                 #
+    shots = scrapy.Field()                      # 射门
+    accThB = scrapy.Field()                     # 直塞
+    accLB = scrapy.Field()                      # 长传
+    accCrosses = scrapy.Field()                 # 传中
+    finalThirdPass = scrapy.Field()             #
+    finalThirdPassAcc = scrapy.Field()          #
+    blockShots = scrapy.Field()                 # 封堵
+    totalTackles = scrapy.Field()               # 抢断
+    fouls = scrapy.Field()                      # 犯规
+    fouled = scrapy.Field()                     # 被侵犯
+    assists = scrapy.Field()                    # 助攻
+    passSucc = scrapy.Field()                   # 传球成功率
+    penaltyScored = scrapy.Field()              # 点球得分
+    mins = scrapy.Field()                       # 上场时长
+    goals = scrapy.Field()                      # 进球
+    shotsOT = scrapy.Field()                    # 射正
+    errorsSum = scrapy.Field()                  # 失误
+    disp = scrapy.Field()
+    dribbles = scrapy.Field()                   # 过人
+    fatalError = scrapy.Field()
+    unsTouches = scrapy.Field()
 
 # 球队，2019-2020赛季，俱乐部
-class Test2Item(scrapy.Item):
+class ClubItem(scrapy.Item):
     a_no = scrapy.Field()                         # 排名
     b_name = scrapy.Field()
     # shoot_total = scrapy.Field()                # 射门数
@@ -89,17 +128,17 @@ class Test2Item(scrapy.Item):
     x_PS = scrapy.Field()
     y_FTPS = scrapy.Field()
 
-class ClubItem(scrapy.Item):
-    rank = scrapy.Field()
-    name = scrapy.Field()
-    turn = scrapy.Field()
-    win = scrapy.Field()
-    tie = scrapy.Field()
-    lose = scrapy.Field()
-    goals = scrapy.Field()
-    fumble = scrapy.Field()
-    delt = scrapy.Field()
-    score = scrapy.Field()
+# class ClubItem(scrapy.Item):
+#     rank = scrapy.Field()
+#     name = scrapy.Field()
+#     turn = scrapy.Field()
+#     win = scrapy.Field()
+#     tie = scrapy.Field()
+#     lose = scrapy.Field()
+#     goals = scrapy.Field()
+#     fumble = scrapy.Field()
+#     delt = scrapy.Field()
+#     score = scrapy.Field()
 
 
 class GameItem(scrapy.Item):

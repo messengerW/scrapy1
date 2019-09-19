@@ -1,7 +1,7 @@
 import scrapy
-from scrapy1.items import Test2Item
+from scrapy1.items import ClubItem
 
-class ClubsSpider(scrapy.Spider):
+class ClubSeasonSpider(scrapy.Spider):
     name = 'spider_clubs'
     allowed_domains = ['tzuqiu.cc']
 
@@ -16,7 +16,7 @@ class ClubsSpider(scrapy.Spider):
         clubs_pass = response.xpath("//*[@id='seasonPass']/tbody/tr")           # -----组织
 
         for elem1,elem2,elem3,elem4 in zip(clubs_summary,clubs_offensive,clubs_defensive,clubs_pass):
-            clubs_item = Test2Item()
+            clubs_item = ClubItem()
             ############################################## 概况
             # 排名
             clubs_item['a_no'] = elem1.xpath("./td[1]/text()").extract_first()

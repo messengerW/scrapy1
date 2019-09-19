@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="035bbb24-99e8-447f-8319-d826869f8888" name="Default" comment="中秋节假期，比较懒，只了解了一下pyecharts">
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/aaa.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/bbb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/ddd.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/test.py" />
+    <list default="true" id="035bbb24-99e8-447f-8319-d826869f8888" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/Club_Turn.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/Player_Season.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/aaa_test.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/scrapy1/items.py" afterPath="$PROJECT_DIR$/scrapy1/items.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/settings.py" afterPath="$PROJECT_DIR$/scrapy1/settings.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/Premier/Clubs.py" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/Club_Season.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/Premier/aaa.py" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/Player_Turn.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/Premier/bbb.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/Premier/ddd.py" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/Ajax_Douban.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/Premier/test.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +45,7 @@
     <SUITE FILE_PATH="coverage/scrapy1$geo.coverage" NAME="geo Coverage Results" MODIFIED="1558264738806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
     <SUITE FILE_PATH="coverage/scrapy1$clubs_pie.coverage" NAME="clubs_pie Coverage Results" MODIFIED="1568443023167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
     <SUITE FILE_PATH="coverage/scrapy1$mywordcloud.coverage" NAME="mywordcloud Coverage Results" MODIFIED="1558274510954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
-    <SUITE FILE_PATH="coverage/scrapy1$test.coverage" NAME="test Coverage Results" MODIFIED="1568632984875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+    <SUITE FILE_PATH="coverage/scrapy1$test.coverage" NAME="test Coverage Results" MODIFIED="1568879543696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$test111__2_.coverage" NAME="test111 (2) Coverage Results" MODIFIED="1558351671037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$s_tieba.coverage" NAME="s_tieba Coverage Results" MODIFIED="1557757391268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapy1$s_game.coverage" NAME="s_game Coverage Results" MODIFIED="1557759076195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -104,30 +109,18 @@
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy1/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+            <state relative-caret-position="354">
+              <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Clubs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Clubs.py">
+      <file leaf-file-name="Player_Turn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Player_Turn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="70" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aaa.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/aaa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+            <state relative-caret-position="1596">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -135,35 +128,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bbb.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/bbb.py">
+      <file leaf-file-name="Player_Season.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Player_Season.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="308">
+              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ddd.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/ddd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#208#3231#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -190,6 +162,7 @@
       <find>151506</find>
       <find>151469</find>
       <find>151985</find>
+      <find>URLLENGTH_LIMIT</find>
     </findStrings>
     <replaceStrings>
       <replace>game_list</replace>
@@ -210,8 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/s_tieba.py" />
-        <option value="$PROJECT_DIR$/uuu.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/tets/test222.py" />
         <option value="$PROJECT_DIR$/dir/pie.py" />
         <option value="$PROJECT_DIR$/aaa/a.py" />
@@ -256,11 +227,13 @@
         <option value="$PROJECT_DIR$/DV/clubs_radar1.py" />
         <option value="$PROJECT_DIR$/DV/tett.py" />
         <option value="$PROJECT_DIR$/DV/clubs_radar2.py" />
-        <option value="$PROJECT_DIR$/scrapy1/items.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/test.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/ddd.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/aaa.py" />
+        <option value="$PROJECT_DIR$/scrapy1/items.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/ddd.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/test.py" />
+        <option value="$PROJECT_DIR$/scrapy1/settings.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/bbb.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/Club_Turn.py" />
       </list>
     </option>
   </component>
@@ -325,6 +298,68 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="Premier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -347,92 +382,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-              <item name="Premier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-              <item name="Premier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,7 +427,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/Premier/aaa.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\Premier\Player_Turn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -497,7 +446,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/Premier/bbb.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\Premier\Player_Season.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -535,7 +484,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/Premier/test.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\Premier\aaa_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -630,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568528435684</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="wzx属实是个憨憨">
+      <created>1568688996942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568688996942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -647,15 +603,15 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3150358" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31384248" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2537797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -665,6 +621,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -713,7 +670,8 @@
     <MESSAGE value="u" />
     <MESSAGE value="test git" />
     <MESSAGE value="中秋节假期，比较懒，只了解了一下pyecharts" />
-    <option name="LAST_COMMIT_MESSAGE" value="中秋节假期，比较懒，只了解了一下pyecharts" />
+    <MESSAGE value="wzx属实是个憨憨" />
+    <option name="LAST_COMMIT_MESSAGE" value="wzx属实是个憨憨" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -732,27 +690,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/League_ManCity2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3655">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -787,13 +724,6 @@
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/ttt.py" />
     <entry file="file://$PROJECT_DIR$/file/newclubs.csv" />
     <entry file="file://$PROJECT_DIR$/file/newclub.csv" />
-    <entry file="file://$PROJECT_DIR$/file/douban.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/file/clubs.json" />
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Club4.py" />
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Club2.py" />
@@ -819,16 +749,6 @@
     <entry file="file://$PROJECT_DIR$/file/clubsss.csv" />
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Club1.py" />
     <entry file="file://$PROJECT_DIR$/file/dd.py" />
-    <entry file="file://$PROJECT_DIR$/file/clubs.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="94" lean-forward="true" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Clubs_turn.py" />
     <entry file="file://$PROJECT_DIR$/DV/.ipynb_checkpoints/rader-checkpoint.ipynb" />
     <entry file="file://$PROJECT_DIR$/DV/rader.py">
@@ -859,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,58 +798,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/a.csv" />
     <entry file="file://$PROJECT_DIR$/scrapy1/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1036">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Clubs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="70" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/aaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,15 +830,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file/a.csv">
+    <entry file="file://$PROJECT_DIR$/file/a.csv" />
+    <entry file="file://$PROJECT_DIR$/Premier/a.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-21420">
+        <state relative-caret-position="252">
+          <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/douban.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/clubs.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="94" lean-forward="true" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/player.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="924">
+          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Club_Season.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Club_Turn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Player_Turn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/douban.py">
@@ -977,33 +923,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Premier/a.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="252">
-          <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/bbb.py">
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Ajax_Douban.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="336">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/ddd.py">
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/aaa_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="56">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Player_Season.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#208#3231#0" expanded="false" />
           </folding>
         </state>
       </provider>

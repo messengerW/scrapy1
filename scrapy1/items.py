@@ -51,6 +51,7 @@ class PlayerItem(scrapy.Item):
 class Test1Item(scrapy.Item):
     no = scrapy.Field()
     name = scrapy.Field()
+    mark = scrapy.Field()
     club = scrapy.Field()
     age = scrapy.Field()
 

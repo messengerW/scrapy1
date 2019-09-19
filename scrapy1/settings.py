@@ -8,6 +8,7 @@
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+URLLENGTH_LIMIT = 20000         # 默认的GET请求长队最大值为 2083 个字节，这里扩大到 20000
 
 BOT_NAME = 'scrapy1'
 

@@ -47,8 +47,9 @@ class DoubanItem(scrapy.Item):
 #     games = scrapy.Field()
 #     goals = scrapy.Field()
 
-# 球员，2019-2020赛季，球员
-class PlayerItem(scrapy.Item):
+# 因为每一轮的后台数据和赛季综合数据的属性不完全一样，所以用了两个item
+# 2019-2020赛季，球员，turn
+class PlayerTurnItem(scrapy.Item):
 
     playerId = scrapy.Field()                   # 球员id
     matchId = scrapy.Field()                    # 比赛id
@@ -93,6 +94,60 @@ class PlayerItem(scrapy.Item):
     dribbles = scrapy.Field()                   # 过人
     fatalError = scrapy.Field()
     unsTouches = scrapy.Field()
+
+# 2019-2020赛季，球员，season
+class PlayerSeasonItem(scrapy.Item):
+    teamName = scrapy.Field()
+    playerMainPosition = scrapy.Field()
+    offsides = scrapy.Field()
+    bigChanceCreated = scrapy.Field()
+    passes = scrapy.Field()
+    crosses = scrapy.Field()
+    keyPasses = scrapy.Field()
+    bigChanceSucc = scrapy.Field()
+    interceptions = scrapy.Field()
+    age = scrapy.Field()
+    shots = scrapy.Field()
+    bigChanceFaced = scrapy.Field()
+    fouled = scrapy.Field()
+    finalThirdPass = scrapy.Field()
+    thBallSucc = scrapy.Field()
+    assists = scrapy.Field()
+    tackles = scrapy.Field()
+    fouls = scrapy.Field()
+    playerName = scrapy.Field()
+    passSucc = scrapy.Field()
+    country = scrapy.Field()
+    goalProp = scrapy.Field()
+    aerialWon = scrapy.Field()
+    errorsSum = scrapy.Field()
+    playerId = scrapy.Field()
+    mans = scrapy.Field()
+    apps = scrapy.Field()
+    countryZh = scrapy.Field()
+    redCards = scrapy.Field()
+    disp = scrapy.Field()
+    playerCountry = scrapy.Field()
+    appsSub = scrapy.Field()
+    thBall = scrapy.Field()
+    teamId = scrapy.Field()
+    finalThirdPassSucc = scrapy.Field()
+    yelCards = scrapy.Field()
+    rate = scrapy.Field()
+    longBall = scrapy.Field()
+    longBallSucc = scrapy.Field()
+    shotsOTProp = scrapy.Field()
+    dribbledPast = scrapy.Field()
+    mins = scrapy.Field()
+    blocks = scrapy.Field()
+    shotsOT = scrapy.Field()
+    goals = scrapy.Field()
+    clears = scrapy.Field()
+    crossSucc = scrapy.Field()
+    offsideWon = scrapy.Field()
+    dribbles = scrapy.Field()
+    unsTouches = scrapy.Field()
+
 
 # 球队，2019-2020赛季，俱乐部
 class ClubItem(scrapy.Item):

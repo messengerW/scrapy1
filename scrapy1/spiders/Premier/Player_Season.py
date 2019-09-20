@@ -3,7 +3,7 @@ import json
 import time
 import scrapy
 from scrapy import Request
-from scrapy1.items import PlayerItem
+from scrapy1.items import PlayerSeasonItem
 
 
 class PlayerSeasonSpider(scrapy.Spider):
@@ -15,16 +15,62 @@ class PlayerSeasonSpider(scrapy.Spider):
 
     def parse(self, response):
         datas = json.loads(response.body)
-        item = PlayerItem()
+        item = PlayerSeasonItem()
         time.sleep(1)
 
-        if datas['data']:
+        if datas['data']:                           # 判断是否为空，不为空则提取出数据
 
             for data in datas['data']:
-                item['no'] = data['id']
-                item['name'] = data['playerName']
-                item['club'] = data['teamName']
+                item['teamName'] = data['teamName']
+                item['playerMainPosition'] = data['playerMainPosition']
+                item['offsides'] = data['offsides']
+                item['bigChanceCreated'] = data['bigChanceCreated']
+                item['crosses'] = data['crosses']
+                item['passes'] = data['passes']
+                item['keyPasses'] = data['keyPasses']
+                item['bigChanceSucc'] = data['bigChanceSucc']
+                item['interceptions'] = data['interceptions']
                 item['age'] = data['age']
+                item['shots'] = data['shots']
+                item['bigChanceFaced'] = data['bigChanceFaced']
+                item['fouled'] = data['fouled']
+                item['finalThirdPass'] = data['finalThirdPass']
+                item['thBallSucc'] = data['thBallSucc']
+                item['assists'] = data['assists']
+                item['tackles'] = data['tackles']
+                item['fouls'] = data['fouls']
+                item['playerName'] = data['playerName']
+                item['passSucc'] = data['passSucc']
+                item['country'] = data['country']
+                item['goalProp'] = data['goalProp']
+                item['aerialWon'] = data['aerialWon']
+                item['errorsSum'] = data['errorsSum']
+                item['playerId'] = data['playerId']
+                item['mans'] = data['mans']
+                item['apps'] = data['apps']
+                item['countryZh'] = data['countryZh']
+                item['redCards'] = data['redCards']
+                item['disp'] = data['disp']
+                item['playerCountry'] = data['playerCountry']
+                item['appsSub'] = data['appsSub']
+                item['thBall'] = data['thBall']
+                item['teamId'] = data['teamId']
+                item['finalThirdPassSucc'] = data['finalThirdPassSucc']
+                item['yelCards'] = data['yelCards']
+                item['rate'] = data['rate']
+                item['longBall'] = data['longBall']
+                item['longBallSucc'] = data['longBallSucc']
+                item['shotsOTProp'] = data['shotsOTProp']
+                item['dribbledPast'] = data['dribbledPast']
+                item['mins'] = data['mins']
+                item['blocks'] = data['blocks']
+                item['shotsOT'] = data['shotsOT']
+                item['goals'] = data['goals']
+                item['clears'] = data['clears']
+                item['crossSucc'] = data['crossSucc']
+                item['offsideWon'] = data['offsideWon']
+                item['dribbles'] = data['dribbles']
+                item['unsTouches'] = data['unsTouches']
                 yield item
 
             _draw = re.search(r"draw=(\d+)", response.url).group(1)

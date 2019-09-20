@@ -2,7 +2,7 @@ import re
 import json
 import scrapy
 from scrapy import Request
-from scrapy1.items import PlayerItem
+from scrapy1.items import PlayerTurnItem
 
 class DDDSpider(scrapy.Spider):
     name = 'spider_ddd'
@@ -21,7 +21,7 @@ class DDDSpider(scrapy.Spider):
         yield Request(url, headers=self.headers)
 
     def parse(self, response):
-        item = PlayerItem()
+        item = PlayerTurnItem()
         datas = json.loads(response.body)
         if datas:
             for data in datas:

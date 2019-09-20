@@ -12,7 +12,7 @@ import json
 import time
 import scrapy
 from scrapy import Request
-from scrapy1.items import PlayerItem
+from scrapy1.items import PlayerTurnItem
 
 class PlayerTurnSpider(scrapy.Spider):
     name = 'spider_playerturn'
@@ -23,7 +23,7 @@ class PlayerTurnSpider(scrapy.Spider):
 
     def parse(self, response):
         datas = json.loads(response.body)   # 获取到请求页面的所有数据并转化格式
-        item = PlayerItem()
+        item = PlayerTurnItem()
         time.sleep(1)
 
         if datas['data']:                           # 判断是否为空，不为空则提取出数据

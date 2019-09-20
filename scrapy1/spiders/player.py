@@ -7,7 +7,7 @@
 # 容易出错，然后下载了一个 chrome xpath 的插件，直接 copy 标签的 xpath 然后再稍微修改就可以了。
 
 import scrapy
-from scrapy1.items import PlayerItem
+from scrapy1.items import PlayerSeasonItem
 from selenium import webdriver
 import time
 
@@ -22,7 +22,7 @@ class PlayerSpider(scrapy.Spider):
     def parse(self, response):
         player_list = response.xpath("//*[@id='playerStatSummary']/tbody/tr")
         for i_item in player_list:
-            player_item = PlayerItem()
+            player_item = PlayerSeasonItem()
             player_item['no'] = i_item.xpath(".//td[1]/text()").extract()
             player_item['name'] = i_item.xpath(".//td[2]/a/div[2]/text()").extract()
             player_item['club'] = i_item.xpath(".//td[2]/span/a/text()").extract()

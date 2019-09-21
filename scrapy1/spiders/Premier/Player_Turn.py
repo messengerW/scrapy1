@@ -77,15 +77,9 @@ class PlayerTurnSpider(scrapy.Spider):
 
             # 分析出点击下一个请求（下一页）时，只有这几个参数发生了变化
             # 用正则表达式索引、修改这几个参数
-            _draw = re.search(r"draw=(\d+)", response.url).group(1)
-            _start = re.search(r"start=(\d+)", response.url).group(1)
-            _value = re.search(r"&_=(\d+)", response.url).group(1)
+            start = re.search(r"start=(\d+)", response.url).group(1)
+            start = 'start=' + str(int(start) + 10)
 
-            _draw = 'draw=' + str(int(_draw) + 1)
-            _start = 'start=' + str(int(_start) + 10)
-            _value = '_=' + str(int(_value) + 1)
-            nexturl = re.sub(r"draw=(\d+)", _draw, response.url)
-            nexturl = re.sub(r"start=(\d+)", _start, nexturl)
-            nexturl = re.sub(r"_=(\d+)", _value, nexturl)
+            nexturl = re.sub(r"start=(\d+)", start, response.url)
             # 得到下一个请求url，然后发出请求
             yield Request(nexturl)

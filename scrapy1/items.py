@@ -149,8 +149,8 @@ class PlayerSeasonItem(scrapy.Item):
     unsTouches = scrapy.Field()
 
 
-# 球队，2019-2020赛季，俱乐部
-class ClubItem(scrapy.Item):
+# 球队，2019-2020赛季综合数据
+class ClubSeasonItem(scrapy.Item):
     a_no = scrapy.Field()                         # 排名
     b_name = scrapy.Field()
     # shoot_total = scrapy.Field()                # 射门数
@@ -182,6 +182,37 @@ class ClubItem(scrapy.Item):
     w_pass_total = scrapy.Field()                 # 传球数
     x_PS = scrapy.Field()
     y_FTPS = scrapy.Field()
+
+# 每一轮的数据
+class ClubTurnItem(scrapy.Item):
+    teamName = scrapy.Field()  # 俱乐部
+    offsides = scrapy.Field()  # 越位
+    bigChanceCreated = scrapy.Field()  # 创造机会
+    passes = scrapy.Field()  # 传球数
+    teamId = scrapy.Field()  # 球队id
+    keyPasses = scrapy.Field()  # 关键传球
+    yelCards = scrapy.Field()  # 黄宝石卡
+    redCards = scrapy.Field()  # 红宝石卡
+    aerialsWon = scrapy.Field()  # 争顶成功
+    finalThirdPassAcc = scrapy.Field()  #
+    rate = scrapy.Field()  # 评分
+    interceptions = scrapy.Field()  # 拦截
+    shots = scrapy.Field()  # 射门
+    clearances = scrapy.Field()  #
+    fouled = scrapy.Field()  # 被侵犯
+    finalThirdPass = scrapy.Field()  #
+    assists = scrapy.Field()  # 助攻
+    fouls = scrapy.Field()  # 犯规
+    passSucc = scrapy.Field()  # 传球成功率
+    tacklesSuccful = scrapy.Field()
+    goalsLost = scrapy.Field()
+    goals = scrapy.Field()  # 进球
+    shotsOT = scrapy.Field()  # 射正
+    possession = scrapy.Field()  # 射正
+    errorsSum = scrapy.Field()  # 失误
+    offsideWon = scrapy.Field()  #
+    aerialDuelScc = scrapy.Field()  #
+    dribblesWon = scrapy.Field()  # 过人
 
 # class ClubItem(scrapy.Item):
 #     rank = scrapy.Field()

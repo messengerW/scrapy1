@@ -5,11 +5,12 @@
     Ps     : ...
     
 """
-import requests
+import re
 
-link = 'http://www.httpbin.org/post'
-header = {'param1':'v1', 'param2':'v2', 'param3':'v3'}
-r = requests.get(url=link,data=header)
+line = "Fat cats are smarter than dogs, is it right?"
+m = re.match(r'(.*) are (.*?) is',line)
 
-print("link:",r.url)
-print("content:",r.text)
+print(m.group())
+print(m.group(1))
+print(m.group(2))
+print(m.groups())

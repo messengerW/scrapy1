@@ -27,7 +27,7 @@ def crawler(index):
     while not workQueue.empty():
         url = workQueue.get(timeout = 2)
         try:
-            r = requests.get(url, timeout = 20)
+            r = requests.get(url, timeout = 5)
             print(Process_id, workQueue.qsize(), r.status_code)
         except Exception as ex:
             print(Process_id, workQueue.qsize(), url, 'Error : ', ex)

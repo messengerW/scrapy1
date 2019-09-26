@@ -1,11 +1,12 @@
 """
-    File   : thread_2.py
+    File   : thread2.py
     Author : msw
     Date   : 2019/9/25 21:04
     Ps     : 第二个实例，较上一个例子有所改进：上一个例子中每个爬虫负责200个url，当某个线程率先完成任务后就会退出
              线程，然而其他线程仍在工作。针对于这一点，我们使用Python的Queue，每个线程动态的从Queue中获取url，
              然后爬取，直至爬完1000个url。
-    
+    Tatal time :  396
+
 """
 import time
 import requests

@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="035bbb24-99e8-447f-8319-d826869f8888" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/thread_1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/thread_2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/uuurls.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/gevent1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/process1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/process2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy1/spiders/thread_0.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/scrapy1/spiders/Premier/aaa_test.py" afterPath="$PROJECT_DIR$/scrapy1/spiders/Premier/aaa_test.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/thread_1.py" afterPath="$PROJECT_DIR$/scrapy1/spiders/thread1.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/thread_2.py" afterPath="$PROJECT_DIR$/scrapy1/spiders/thread2.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/uuurls.txt" afterPath="$PROJECT_DIR$/scrapy1/spiders/uuurls.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,50 +20,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/scrapy1$s_douban.coverage" NAME="s_douban Coverage Results" MODIFIED="1556027499728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scrapy1$process1.coverage" NAME="process1 Coverage Results" MODIFIED="1569479223320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1568293270339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$tett.coverage" NAME="tett Coverage Results" MODIFIED="1568449713268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
     <SUITE FILE_PATH="coverage/scrapy1$rader.coverage" NAME="rader Coverage Results" MODIFIED="1568440525368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
-    <SUITE FILE_PATH="coverage/scrapy1$aaa_test.coverage" NAME="aaa_test Coverage Results" MODIFIED="1569416134697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+    <SUITE FILE_PATH="coverage/scrapy1$aaa_test.coverage" NAME="aaa_test Coverage Results" MODIFIED="1569475709903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$douban.coverage" NAME="douban Coverage Results" MODIFIED="1556000812828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
-    <SUITE FILE_PATH="coverage/scrapy1$clubs_rader.coverage" NAME="clubs_rader Coverage Results" MODIFIED="1568354296461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
     <SUITE FILE_PATH="coverage/scrapy1$__threads.coverage" NAME="__threads Coverage Results" MODIFIED="1569414754370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$player_season_charts.coverage" NAME="player_season_charts Coverage Results" MODIFIED="1568966519972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
-    <SUITE FILE_PATH="coverage/scrapy1$__thread.coverage" NAME="__thread Coverage Results" MODIFIED="1569251119545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$learn_xlrd.coverage" NAME="learn_xlrd Coverage Results" MODIFIED="1558361396405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
-    <SUITE FILE_PATH="coverage/scrapy1$club_turn_charts.coverage" NAME="club_turn_charts Coverage Results" MODIFIED="1569148687086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
     <SUITE FILE_PATH="coverage/scrapy1$test111.coverage" NAME="test111 Coverage Results" MODIFIED="1558345223822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aaa" />
     <SUITE FILE_PATH="coverage/scrapy1$test111__1_.coverage" NAME="test111 (1) Coverage Results" MODIFIED="1558345233587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aaa" />
-    <SUITE FILE_PATH="coverage/scrapy1$wordcloud.coverage" NAME="wordcloud Coverage Results" MODIFIED="1558275289313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
     <SUITE FILE_PATH="coverage/scrapy1$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1568554955487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
-    <SUITE FILE_PATH="coverage/scrapy1$aaa__1_.coverage" NAME="aaa (1) Coverage Results" MODIFIED="1569057950895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
-    <SUITE FILE_PATH="coverage/scrapy1$pie.coverage" NAME="pie Coverage Results" MODIFIED="1558263934541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
     <SUITE FILE_PATH="coverage/scrapy1$testttt.coverage" NAME="testttt Coverage Results" MODIFIED="1568291043917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$scrapy1.coverage" NAME="scrapy1 Coverage Results" MODIFIED="1568961199275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/scrapy1$bar.coverage" NAME="bar Coverage Results" MODIFIED="1559050921830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
+    <SUITE FILE_PATH="coverage/scrapy1$gevent1.coverage" NAME="gevent1 Coverage Results" MODIFIED="1569482261021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$clubs_radar2.coverage" NAME="clubs_radar2 Coverage Results" MODIFIED="1568524639976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
-    <SUITE FILE_PATH="coverage/scrapy1$tieba.coverage" NAME="tieba Coverage Results" MODIFIED="1555935977548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$learn_xlwings.coverage" NAME="learn_xlwings Coverage Results" MODIFIED="1559474300686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
     <SUITE FILE_PATH="coverage/scrapy1$uuu.coverage" NAME="uuu Coverage Results" MODIFIED="1558325983820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapy1$learn_selenium.coverage" NAME="learn_selenium Coverage Results" MODIFIED="1556267179927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/scrapy1$geo.coverage" NAME="geo Coverage Results" MODIFIED="1558264738806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
-    <SUITE FILE_PATH="coverage/scrapy1$clubs_pie.coverage" NAME="clubs_pie Coverage Results" MODIFIED="1568443023167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
+    <SUITE FILE_PATH="coverage/scrapy1$thread_3.coverage" NAME="thread_3 Coverage Results" MODIFIED="1569475890670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$mywordcloud.coverage" NAME="mywordcloud Coverage Results" MODIFIED="1558274510954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
     <SUITE FILE_PATH="coverage/scrapy1$test.coverage" NAME="test Coverage Results" MODIFIED="1568879543696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
-    <SUITE FILE_PATH="coverage/scrapy1$test111__2_.coverage" NAME="test111 (2) Coverage Results" MODIFIED="1558351671037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$s_tieba.coverage" NAME="s_tieba Coverage Results" MODIFIED="1557757391268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/scrapy1$s_game.coverage" NAME="s_game Coverage Results" MODIFIED="1557759076195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapy1$test_tieba.coverage" NAME="test_tieba Coverage Results" MODIFIED="1555941646403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/scrapy1$learn_str.coverage" NAME="learn_str Coverage Results" MODIFIED="1558357563514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapy1$League_GetUrl.coverage" NAME="League_GetUrl Coverage Results" MODIFIED="1559464963028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
-    <SUITE FILE_PATH="coverage/scrapy1$test222.coverage" NAME="test222 Coverage Results" MODIFIED="1558325234898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$clubs_radar1.coverage" NAME="clubs_radar1 Coverage Results" MODIFIED="1568447151688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
+    <SUITE FILE_PATH="coverage/scrapy1$thread_2.coverage" NAME="thread_2 Coverage Results" MODIFIED="1569476800981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy1$Player_Turn_new.coverage" NAME="Player_Turn_new Coverage Results" MODIFIED="1569053860603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+    <SUITE FILE_PATH="coverage/scrapy1$s_douban.coverage" NAME="s_douban Coverage Results" MODIFIED="1556027499728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scrapy1$clubs_rader.coverage" NAME="clubs_rader Coverage Results" MODIFIED="1568354296461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
+    <SUITE FILE_PATH="coverage/scrapy1$__thread.coverage" NAME="__thread Coverage Results" MODIFIED="1569251119545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+    <SUITE FILE_PATH="coverage/scrapy1$thread_4.coverage" NAME="thread_4 Coverage Results" MODIFIED="1569476094094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy1$club_turn_charts.coverage" NAME="club_turn_charts Coverage Results" MODIFIED="1569148687086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
+    <SUITE FILE_PATH="coverage/scrapy1$thread_1.coverage" NAME="thread_1 Coverage Results" MODIFIED="1569476210490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy1$wordcloud.coverage" NAME="wordcloud Coverage Results" MODIFIED="1558275289313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
+    <SUITE FILE_PATH="coverage/scrapy1$aaa__1_.coverage" NAME="aaa (1) Coverage Results" MODIFIED="1569057950895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+    <SUITE FILE_PATH="coverage/scrapy1$pie.coverage" NAME="pie Coverage Results" MODIFIED="1558263934541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
+    <SUITE FILE_PATH="coverage/scrapy1$bar.coverage" NAME="bar Coverage Results" MODIFIED="1559050921830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
+    <SUITE FILE_PATH="coverage/scrapy1$process2.coverage" NAME="process2 Coverage Results" MODIFIED="1569480937857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy1$tieba.coverage" NAME="tieba Coverage Results" MODIFIED="1555935977548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy1$geo.coverage" NAME="geo Coverage Results" MODIFIED="1558264738806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
+    <SUITE FILE_PATH="coverage/scrapy1$clubs_pie.coverage" NAME="clubs_pie Coverage Results" MODIFIED="1568443023167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
+    <SUITE FILE_PATH="coverage/scrapy1$thread_0.coverage" NAME="thread_0 Coverage Results" MODIFIED="1569477253375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy1$test111__2_.coverage" NAME="test111 (2) Coverage Results" MODIFIED="1558351671037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+    <SUITE FILE_PATH="coverage/scrapy1$s_game.coverage" NAME="s_game Coverage Results" MODIFIED="1557759076195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scrapy1$learn_str.coverage" NAME="learn_str Coverage Results" MODIFIED="1558357563514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scrapy1$test222.coverage" NAME="test222 Coverage Results" MODIFIED="1558325234898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$bbb.coverage" NAME="bbb Coverage Results" MODIFIED="1568554251780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$itcast.coverage" NAME="itcast Coverage Results" MODIFIED="1555937076801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$test_tieba__1_.coverage" NAME="test_tieba (1) Coverage Results" MODIFIED="1555937009537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapy1$gogogo.coverage" NAME="gogogo Coverage Results" MODIFIED="1556265311104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/scrapy1$thread_2.coverage" NAME="thread_2 Coverage Results" MODIFIED="1569421519193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
-    <SUITE FILE_PATH="coverage/scrapy1$Player_Turn_new.coverage" NAME="Player_Turn_new Coverage Results" MODIFIED="1569053860603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -121,45 +132,81 @@
       <file leaf-file-name="aaa_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/aaa_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
-              <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-              <folding>
-                <element signature="e#185#196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread_2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-              <folding>
-                <element signature="e#255#266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uuurls.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/uuurls.txt">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread_0.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread_0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#153#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding>
+                <element signature="e#220#231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding>
+                <element signature="e#272#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/process1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+              <folding>
+                <element signature="e#238#249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/process2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#148#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gevent1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/gevent1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+              <folding>
+                <element signature="e#145#158#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,6 +235,10 @@
       <find>URLLENGTH_LIMIT</find>
       <find>:</find>
       <find>&quot;</find>
+      <find>ccb</find>
+      <find>asos</find>
+      <find>aa.com</find>
+      <find>360</find>
     </findStrings>
     <replaceStrings>
       <replace>game_list</replace>
@@ -209,16 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/League_GetUrl.py" />
-        <option value="$PROJECT_DIR$/DV/learn_xlwings.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/League_ManCity1.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/League1.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/League2.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/douban.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/club.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/clubs.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/ttt.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/Club1.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/Club2.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/Club4.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/Club3.py" />
@@ -257,9 +298,19 @@
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/_thread.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/__thread.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/__threads.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/thread_3.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/thread_4.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/aaa_test.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/thread_1.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/thread_2.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/thread_5.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/thread2.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/thread1.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/thread_0.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/process1.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/process2.py" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/uuurls.txt" />
+        <option value="$PROJECT_DIR$/scrapy1/spiders/gevent1.py" />
       </list>
     </option>
   </component>
@@ -270,7 +321,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="539" />
+    <option name="x" value="874" />
+    <option name="y" value="29" />
     <option name="width" value="980" />
     <option name="height" value="1030" />
   </component>
@@ -365,6 +417,13 @@
             </path>
             <path>
               <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="Premier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -432,78 +491,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.thread_2">
-    <configuration name="__thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.gevent1">
+    <configuration name="gevent1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy1/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\Premier\__threads.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/gevent1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="__threads" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="process1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy1/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/Premier/__threads.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/process1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="aaa_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="process2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy1/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/Premier/aaa_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/process2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="club_turn_charts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="thread_0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DV" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy1/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DV/club_turn_charts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/thread_0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -522,7 +581,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy1/spiders/thread_2.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\thread2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -547,19 +606,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.scrapy1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.club_turn_charts" />
-      <item index="2" class="java.lang.String" itemvalue="Python.__thread" />
-      <item index="3" class="java.lang.String" itemvalue="Python.__threads" />
-      <item index="4" class="java.lang.String" itemvalue="Python.aaa_test" />
-      <item index="5" class="java.lang.String" itemvalue="Python.thread_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.thread_2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.thread_0" />
+      <item index="3" class="java.lang.String" itemvalue="Python.process1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.process2" />
+      <item index="5" class="java.lang.String" itemvalue="Python.gevent1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.thread_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.aaa_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.__threads" />
-        <item index="3" class="java.lang.String" itemvalue="Python.__thread" />
-        <item index="4" class="java.lang.String" itemvalue="Python.club_turn_charts" />
+        <item index="0" class="java.lang.String" itemvalue="Python.gevent1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.process2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.process1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.thread_0" />
+        <item index="4" class="java.lang.String" itemvalue="Python.thread_2" />
       </list>
     </recent_temporary>
   </component>
@@ -647,7 +706,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569335552925</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="学习多线程爬虫">
+      <created>1569423243706</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569423243707</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -661,12 +727,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31384248" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2413607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -736,7 +803,8 @@
     <MESSAGE value="趁周末又看了一下爬虫" />
     <MESSAGE value="丰富了pyecharts图表" />
     <MESSAGE value="有点发烧.." />
-    <option name="LAST_COMMIT_MESSAGE" value="有点发烧.." />
+    <MESSAGE value="学习多线程爬虫" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习多线程爬虫" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,11 +823,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DV/.ipynb_checkpoints/rader-checkpoint.ipynb" />
-    <entry file="file://$PROJECT_DIR$/DV/render.html" />
-    <entry file="file://$PROJECT_DIR$/DV/rader.ipynb" />
-    <entry file="file://$PROJECT_DIR$/DV/普通饼图示例.html" />
-    <entry file="file://$PROJECT_DIR$/e.json" />
     <entry file="file://D:/python3.6/Lib/site-packages/scrapy/http/request/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
@@ -1067,14 +1130,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/aaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Ajax_Douban.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1083,40 +1138,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/aaa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/aaa_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#220#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding>
+            <element signature="e#272#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread_0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#153#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/process1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <element signature="e#238#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/process2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#148#159#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/uuurls.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread_1.py">
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/gevent1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="280">
+          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
           <folding>
-            <element signature="e#185#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/thread_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-          <folding>
-            <element signature="e#255#266#0" expanded="true" />
+            <element signature="e#145#158#0" expanded="true" />
           </folding>
         </state>
       </provider>

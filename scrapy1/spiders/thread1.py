@@ -1,9 +1,10 @@
 """
-    File   : thread_1.py
+    File   : thread1.py
     Author : msw
     Date   : 2019/9/25 21:01
     Ps     : 学习一下多线程爬虫，这是书上的第一个实例。待爬的是1000个网站，分成了五份每份200个，然后开了
              5个线程，每个线程分配200个url，各司其职。
+    Tatal time :  469.7220342159271
     
 """
 import time
@@ -34,14 +35,12 @@ class myThread(threading.Thread):
         print("Ending " + self.name)
 
 def crawler(threadName, link_range):
-    no = 0
     for i in range(link_range[0], link_range[1] + 1):
-        no = no + 1
         try:
             r = requests.get(link_list[i], timeout=20)
-            print(no, threadName, r.status_code, link_list[i])
+            print(threadName, r.status_code, link_list[i])
         except Exception as e:
-            print(no, threadName, 'Error:', e)
+            print(threadName, 'Error:', e)
 
 
 thread_list = []

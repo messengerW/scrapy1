@@ -2,7 +2,6 @@
 # 这个类爬到的 urls 写进 excel 里面 然后再在需要的类里面读取
 # 使用的话，只需要把目录下的原来的urls.xls清空，然后把 下面 start_urls 地址的数字改一下就可以了
 # 还在不断完善中···
-# 我宣布...xlrd 还有 xlwt 淘汰辽
 # 注意，这个 xlwings 下标从1开始，第一个单元格 (1,1)
 import scrapy
 import xlwings as xw

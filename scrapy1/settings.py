@@ -77,19 +77,29 @@ DOWNLOADER_MIDDLEWARES = {
 #    'scrapy1.pipelines.Scrapy1Pipeline': 300,
 # }
 
-COOKIES_ENABLED = True #禁止cookies,防止被ban
+COOKIES_ENABLED = True                  #禁止cookies,防止被ban
+
+# 设置 MySQL 连接
 MYSQL_HOST = 'localhost'				#Mysql连接名
 MYSQL_PORT = 3306						#连接端口号
 MYSQL_USER = 'root'						#Mysql用户名
-MYSQL_PASSWORD = '232624'						#Mysql用户密码
-MYSQL_DBNAME = '433'						#Mysql数据库名
+MYSQL_PASSWORD = '232624'				#Mysql用户密码
+MYSQL_DBNAME = '433'				    #Mysql数据库名
 MYSQL_CHARSET = 'utf8'
+
+# 设置 MongoDB 连接
+MONGODB_HOST = 'localhost'                 # MONGODB 主机名
+MONGODB_PORT = 27017                        # MONGODB 端口号
+MONGODB_DBNAME = 'England'                  # 设置数据库名称
+MONGODB_COLLECTION = 'club_history'          # 设置存放数据的表名称,可以在pipeline中自己设置
+
 
 # 开通Pipeline
 ITEM_PIPELINES = {
     #'scrapy1.pipelines.DoubanPipeline': 100,
     #'scrapy1.pipelines.PlayerPipeline': 200,
     #'scrapy1.pipelines.ClubPipeline': 100,
+    'scrapy1.pipelines.MongoDBPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

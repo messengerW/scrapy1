@@ -6,7 +6,9 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
+import pymongo
 from pymysql import cursors
+from scrapy1 import settings
 from twisted.enterprise import adbapi
 
 
@@ -64,9 +66,9 @@ class DoubanPipeline(object):
         num = item['num']
         introduce = item['introduce']
         # 把数据放进data
-        data = (no,name,info,star,num,introduce)
+        data = (no, name, info, star, num, introduce)
         # 执行sql语句
-        cursor.execute(sql,data)
+        cursor.execute(sql, data)
         # Testing SQL Syntax
         print(sql)
         # 错误函数
@@ -131,13 +133,48 @@ class ClubPipeline(object):
         score = item['score']
 
         # 把数据放进data
-        data = (rank,name,turn,win,tie,lose,goals,fumble,delt,score)
+        data = (rank, name, turn, win, tie, lose, goals, fumble, delt, score)
         # 执行sql语句
-        cursor.execute(sql,data)
+        cursor.execute(sql, data)
         # Testing SQL Syntax
-        print('===>'+ sql)
+        print('===>' + sql)
         # 错误函数
 
     def handle_error(self, failure, item, spider):
         # #输出错误信息
         print(failure)
+
+
+# 之前一直使用的是 MySQL 数据库，今天试一下 MongoDB，存的是英超联赛之前赛季的数据
+# 2019.10.15
+class MongoDBPipeline(object):
+
+    def __init__(self, host, port, dbname):
+        self.host = host
+        self.port = port
+        self.dbname = dbname
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            # localhost
+            host = crawler.settings.get('MONGODB_HOST'),
+            # MongoDB 的端口
+            port = crawler.settings.get('MONGODB_PORT'),
+            # 要链接的数据库
+            dbname = crawler.settings.get('MONGODB_DBNAME'),
+        )
+
+    def open_spider(self, spider):
+        self.client = pymongo.MongoClient(self.host, self.port)
+        self.db = self.client[self.dbname]
+        # 表(collection)
+        self.collection = self.db["club_history"]
+
+    def close_spider(self, spider):
+        self.client.close()
+
+    def process_item(self, item, spider):
+        data = dict(item)
+        self.collection.insert(data)
+        return item

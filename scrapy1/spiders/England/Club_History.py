@@ -7,24 +7,32 @@
     
 """
 
+import re
 import json
 import time
 import scrapy
+import random
 from scrapy import Request
 from scrapy1.items import ClubTurnItem
 
+
 class ClubHistorySpider(scrapy.Spider):
-    name = 'spider_club_history'
+    name = 'spider_clubhistory'
+
+    # 最开始的 request 页面
+    url = 'http://www.tzuqiu.cc/matchTeamStatistics/querysStat.json?comeptitionId=1&season=16%2F17&stageName=1'
 
     def start_requests(self):
-        url = 'http://www.tzuqiu.cc/matchTeamStatistics/querysStat.json?comeptitionId=1&season=18%2F19&stageName=1'
-        yield Request(url)
+        yield Request(self.url)
 
     def parse(self, response):
-        datas = json.loads(response.body)   # 获取到请求页面的所有数据并转化格式
+        # 获取到请求页面的所有数据并转化格式
+        datas = json.loads(response.body)
         item = ClubTurnItem()
-        time.sleep(1)
-        if datas:                           # 判断是否为空，不为空则提取出数据
+        # 随机sleep，方式被 ban
+        time.sleep(1 + random.random())
+        # 判断是否为空，不为空则提取出数据
+        if datas:
             for data in datas:
                 item['teamName'] = data['teamName']
                 item['offsides'] = data['offsides']
@@ -57,3 +65,24 @@ class ClubHistorySpider(scrapy.Spider):
 
                 yield item
 
+        # 获取当卡请求的赛季，例如 18-19
+        year1 = re.search(r'season=(\d+)', response.url).group(1)
+        year2 = re.search(r'%2F(\d+)', response.url).group(1)
+        # 获取到当前的轮次
+        turn = re.search(r'(\d+)$', response.url).group()
+        # 判断，如果轮次 turn<38 则轮次加一
+        if int(turn) < 38:
+            turn = str(int(turn) + 1)
+            nexturl = re.sub(r'(\d+)$', turn, response.url)
+            print("nexturl = %s" % nexturl)
+            yield Request(nexturl)
+        # 如果 turn>38 则需要修改赛季，并把 turn 重置为 1
+        else:
+            turn = str(1)
+            year1 = 'season=' + year2
+            year2 = '%2F' + str(int(year2) + 1)
+            nexturl = re.sub(r'(\d+)$', turn, response.url)
+            nexturl = re.sub(r'season=(\d+)', year1, nexturl)
+            nexturl = re.sub(r'%2F(\d+)', year2, nexturl)
+            print("nexturl = %s" % nexturl)
+            yield Request(nexturl)

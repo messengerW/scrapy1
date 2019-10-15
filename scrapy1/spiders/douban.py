@@ -12,25 +12,11 @@ class DoubanSpider(scrapy.Spider):
     start_urls = ['https://movie.douban.com/top250']
 
     #   这个可以直接在settings里面修改
-    # # 如果网站设置有防爬措施，需要添加上请求头信息，不然会爬取不到任何数据
-    # header = {
-    #     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 '
-    #                   'Safari/537.36',
-    #     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    # }
-    #
-    # # start_requests方法为scrapy的方法，我们对它进行重写。
-    # def start_requests(self):
-    #     # 将start_url中的链接通过for循环进行遍历。
-    #     for url in self.start_urls:
-    #         # 通过yield发送Request请求。
-    #         # 这里的Request注意是scrapy下的Request类。注意不到导错类了。
-    #         # 这里的有3个参数：
-    #         #        1、url为遍历后的链接
-    #         #        2、callback为发送完请求后通过什么方法进行处理，这里通过parse方法进行处理。
-    #         #        3、如果网站设置了防爬措施，需要加上headers伪装浏览器发送请求。
-    #
-    #         yield scrapy.Request(url=url, callback=self.parse, headers=self.header)
+    # 如果网站设置有防爬措施，需要添加上请求头信息，不然会爬取不到任何数据
+    header = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    }
 
     def parse(self, response):
         movie_list = response.xpath("//*[@id='content']/div/div[1]/ol/li")
@@ -61,4 +47,4 @@ class DoubanSpider(scrapy.Spider):
         next_link = response.xpath("//span[@class='next']/link/@href").extract()
         if next_link:
             next_link = next_link[0]
-            yield scrapy.Request("https://movie.douban.com/top250" + next_link, callback=self.parse)
+            yield scrapy.Request("https://movie.douban.com/top250" + next_link, callback=self.parse, headers=self.header)

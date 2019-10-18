@@ -20,7 +20,7 @@ class ClubHistorySpider(scrapy.Spider):
     name = 'spider_clubhistory'
 
     # 最开始的 request 页面
-    url = 'http://www.tzuqiu.cc/matchTeamStatistics/querysStat.json?comeptitionId=1&season=16%2F17&stageName=1'
+    url = 'http://www.tzuqiu.cc/matchTeamStatistics/querysStat.json?comeptitionId=1&season=18%2F19&stageName=1'
 
     def start_requests(self):
         yield Request(self.url)
@@ -77,12 +77,12 @@ class ClubHistorySpider(scrapy.Spider):
             print("nexturl = %s" % nexturl)
             yield Request(nexturl)
         # 如果 turn>38 则需要修改赛季，并把 turn 重置为 1
-        else:
-            turn = str(1)
-            year1 = 'season=' + year2
-            year2 = '%2F' + str(int(year2) + 1)
-            nexturl = re.sub(r'(\d+)$', turn, response.url)
-            nexturl = re.sub(r'season=(\d+)', year1, nexturl)
-            nexturl = re.sub(r'%2F(\d+)', year2, nexturl)
-            print("nexturl = %s" % nexturl)
-            yield Request(nexturl)
+        # else:
+        #     turn = str(1)
+        #     year1 = 'season=' + year2
+        #     year2 = '%2F' + str(int(year2) + 1)
+        #     nexturl = re.sub(r'(\d+)$', turn, response.url)
+        #     nexturl = re.sub(r'season=(\d+)', year1, nexturl)
+        #     nexturl = re.sub(r'%2F(\d+)', year2, nexturl)
+        #     print("nexturl = %s" % nexturl)
+        #     yield Request(nexturl)

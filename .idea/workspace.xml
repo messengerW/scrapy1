@@ -2,10 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="035bbb24-99e8-447f-8319-d826869f8888" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6a80e488-f31e-40f6-b888-ec303a626534.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/6a80e488-f31e-40f6-b888-ec303a626534.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Test/__init__.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/England/Club_History.py" afterPath="$PROJECT_DIR$/scrapy1/spiders/England/Club_History.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/Test/README.md" />
+      <change beforePath="$PROJECT_DIR$/file/clubs.csv" afterPath="$PROJECT_DIR$/Data/clubs.csv" />
+      <change beforePath="$PROJECT_DIR$/file/douban.json" afterPath="$PROJECT_DIR$/Data/douban.json" />
+      <change beforePath="$PROJECT_DIR$/file/game.csv" afterPath="$PROJECT_DIR$/Data/game.csv" />
+      <change beforePath="$PROJECT_DIR$/file/game.json" afterPath="$PROJECT_DIR$/Data/game.json" />
+      <change beforePath="$PROJECT_DIR$/file/items.json" afterPath="$PROJECT_DIR$/Data/items.json" />
+      <change beforePath="$PROJECT_DIR$/file/p.json" afterPath="$PROJECT_DIR$/Data/p.json" />
+      <change beforePath="$PROJECT_DIR$/file/player_season.csv" afterPath="$PROJECT_DIR$/Data/player_season.csv" />
+      <change beforePath="$PROJECT_DIR$/file/player_turn1.csv" afterPath="$PROJECT_DIR$/Data/player_turn1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/player_turn2.csv" afterPath="$PROJECT_DIR$/Data/player_turn2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/player_turn3.csv" afterPath="$PROJECT_DIR$/Data/player_turn3.csv" />
+      <change beforePath="$PROJECT_DIR$/file/player_turn4.csv" afterPath="$PROJECT_DIR$/Data/player_turn4.csv" />
+      <change beforePath="$PROJECT_DIR$/file/player_turn5.csv" afterPath="$PROJECT_DIR$/Data/player_turn5.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Bournemouth1.csv" afterPath="$PROJECT_DIR$/Data/premier/Bournemouth1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Bournemouth2.csv" afterPath="$PROJECT_DIR$/Data/premier/Bournemouth2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Brighton1.csv" afterPath="$PROJECT_DIR$/Data/premier/Brighton1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Brighton2.csv" afterPath="$PROJECT_DIR$/Data/premier/Brighton2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Burnley1.csv" afterPath="$PROJECT_DIR$/Data/premier/Burnley1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Burnley2.csv" afterPath="$PROJECT_DIR$/Data/premier/Burnley2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Cardiff1.csv" afterPath="$PROJECT_DIR$/Data/premier/Cardiff1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Cardiff2.csv" afterPath="$PROJECT_DIR$/Data/premier/Cardiff2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Crystal1.csv" afterPath="$PROJECT_DIR$/Data/premier/Crystal1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Crystal2.csv" afterPath="$PROJECT_DIR$/Data/premier/Crystal2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Everton1.csv" afterPath="$PROJECT_DIR$/Data/premier/Everton1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Everton2.csv" afterPath="$PROJECT_DIR$/Data/premier/Everton2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Fulham1.csv" afterPath="$PROJECT_DIR$/Data/premier/Fulham1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Fulham2.csv" afterPath="$PROJECT_DIR$/Data/premier/Fulham2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Huddersfield1.csv" afterPath="$PROJECT_DIR$/Data/premier/Huddersfield1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Huddersfield2.csv" afterPath="$PROJECT_DIR$/Data/premier/Huddersfield2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Leicester1.csv" afterPath="$PROJECT_DIR$/Data/premier/Leicester1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Leicester2.csv" afterPath="$PROJECT_DIR$/Data/premier/Leicester2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Newcastle1.csv" afterPath="$PROJECT_DIR$/Data/premier/Newcastle1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Newcastle2.csv" afterPath="$PROJECT_DIR$/Data/premier/Newcastle2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Southampton1.csv" afterPath="$PROJECT_DIR$/Data/premier/Southampton1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Southampton2.csv" afterPath="$PROJECT_DIR$/Data/premier/Southampton2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Watford1.csv" afterPath="$PROJECT_DIR$/Data/premier/Watford1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Watford2.csv" afterPath="$PROJECT_DIR$/Data/premier/Watford2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/WestHamUtd1.csv" afterPath="$PROJECT_DIR$/Data/premier/WestHamUtd1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/WestHamUtd2.csv" afterPath="$PROJECT_DIR$/Data/premier/WestHamUtd2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Wolf1.csv" afterPath="$PROJECT_DIR$/Data/premier/Wolf1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/Wolf2.csv" afterPath="$PROJECT_DIR$/Data/premier/Wolf2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/arsenal1.csv" afterPath="$PROJECT_DIR$/Data/premier/arsenal1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/arsenal2.csv" afterPath="$PROJECT_DIR$/Data/premier/arsenal2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/chelsea1.csv" afterPath="$PROJECT_DIR$/Data/premier/chelsea1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/chelsea2.csv" afterPath="$PROJECT_DIR$/Data/premier/chelsea2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/liverpool1.csv" afterPath="$PROJECT_DIR$/Data/premier/liverpool1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/liverpool2.csv" afterPath="$PROJECT_DIR$/Data/premier/liverpool2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/mancity1.csv" afterPath="$PROJECT_DIR$/Data/premier/mancity1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/mancity2.csv" afterPath="$PROJECT_DIR$/Data/premier/mancity2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/manutd1.csv" afterPath="$PROJECT_DIR$/Data/premier/manutd1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/manutd2.csv" afterPath="$PROJECT_DIR$/Data/premier/manutd2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/tottenham1.csv" afterPath="$PROJECT_DIR$/Data/premier/tottenham1.csv" />
+      <change beforePath="$PROJECT_DIR$/file/premier/tottenham2.csv" afterPath="$PROJECT_DIR$/Data/premier/tottenham2.csv" />
+      <change beforePath="$PROJECT_DIR$/file/teacher.html" afterPath="$PROJECT_DIR$/Data/teacher.html" />
+      <change beforePath="$PROJECT_DIR$/gogogo.py" afterPath="$PROJECT_DIR$/Test/gogogo.py" />
+      <change beforePath="$PROJECT_DIR$/learn_selenium.py" afterPath="$PROJECT_DIR$/Test/learn_selenium.py" />
+      <change beforePath="$PROJECT_DIR$/learn_str.py" afterPath="$PROJECT_DIR$/Test/learn_str.py" />
+      <change beforePath="$PROJECT_DIR$/name.py" afterPath="$PROJECT_DIR$/Test/name.py" />
+      <change beforePath="$PROJECT_DIR$/s_douban.py" afterPath="$PROJECT_DIR$/Test/s_douban.py" />
+      <change beforePath="$PROJECT_DIR$/s_game.py" afterPath="$PROJECT_DIR$/Test/s_game.py" />
+      <change beforePath="$PROJECT_DIR$/s_tieba.py" afterPath="$PROJECT_DIR$/Test/s_tieba.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/Exercise/itcast.py" afterPath="$PROJECT_DIR$/scrapy1/spiders/Exercise/itcast.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +87,7 @@
     <SUITE FILE_PATH="coverage/scrapy1$learn_xlrd.coverage" NAME="learn_xlrd Coverage Results" MODIFIED="1558361396405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
     <SUITE FILE_PATH="coverage/scrapy1$test111.coverage" NAME="test111 Coverage Results" MODIFIED="1558345223822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aaa" />
     <SUITE FILE_PATH="coverage/scrapy1$test111__1_.coverage" NAME="test111 (1) Coverage Results" MODIFIED="1558345233587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aaa" />
-    <SUITE FILE_PATH="coverage/scrapy1$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1571121675362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy1$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1571387969510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$testttt.coverage" NAME="testttt Coverage Results" MODIFIED="1568291043917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$scrapy1.coverage" NAME="scrapy1 Coverage Results" MODIFIED="1568961199275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/scrapy1$gevent1.coverage" NAME="gevent1 Coverage Results" MODIFIED="1571057293658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/MultiThreads" />
@@ -67,7 +128,7 @@
     <SUITE FILE_PATH="coverage/scrapy1$bbb.coverage" NAME="bbb Coverage Results" MODIFIED="1568554251780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$itcast.coverage" NAME="itcast Coverage Results" MODIFIED="1555937076801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$test_tieba__1_.coverage" NAME="test_tieba (1) Coverage Results" MODIFIED="1555937009537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/scrapy1$gogogo.coverage" NAME="gogogo Coverage Results" MODIFIED="1556265311104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scrapy1$gogogo.coverage" NAME="gogogo Coverage Results" MODIFIED="1571388050672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -94,7 +155,7 @@
       <file leaf-file-name="Club_History.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/Club_History.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-398">
+            <state relative-caret-position="0">
               <caret line="22" column="98" lean-forward="false" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
               <folding>
                 <element signature="e#208#217#0" expanded="true" />
@@ -104,26 +165,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy1/pipelines.py">
+      <file leaf-file-name="gogogo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/gogogo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="171" column="47" lean-forward="false" selection-start-line="171" selection-start-column="47" selection-end-line="171" selection-end-column="47" />
+            <state relative-caret-position="168">
+              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding>
-                <element signature="e#195#209#0" expanded="true" />
-                <marker date="1571129943522" expanded="true" signature="1529:1606" ph="INSERT INTO test... " />
-                <marker date="1571129943522" expanded="true" signature="3260:3392" ph="INSERT INTO premier... " />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aaa.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrapy1/spiders/aaa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -177,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/test.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/bbb.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/dd.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/e.py" />
@@ -228,6 +276,7 @@
         <option value="$PROJECT_DIR$/scrapy1/pipelines.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/England/Club_History.py" />
         <option value="$PROJECT_DIR$/file/England17-18.csv" />
+        <option value="$PROJECT_DIR$/Test/gogogo.py" />
       </list>
     </option>
   </component>
@@ -336,9 +385,7 @@
             <path>
               <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-              <item name="England" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,11 +403,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\Test" />
       <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\MultiThreads" />
       <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\Others" />
       <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders" />
       <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\Exercise" />
-      <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\Test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -375,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aaa">
+  <component name="RunManager" selected="Python.gogogo">
     <configuration name="aaa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,6 +461,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="gogogo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scrapy1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/gogogo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="scrapy1" type="Python.Ipnb" factoryName="Jupyter Notebook">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,15 +497,17 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.scrapy1" />
       <item index="1" class="java.lang.String" itemvalue="Python.gevent1" />
       <item index="2" class="java.lang.String" itemvalue="Python.aaa" />
+      <item index="3" class="java.lang.String" itemvalue="Python.gogogo" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.aaa" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gevent1" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.gogogo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.aaa" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gevent1" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571130422454</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=".">
+      <created>1571384138983</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571384138983</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -582,9 +657,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297362" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3116883" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2672786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3112426" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27699783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -597,7 +672,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781065" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -655,7 +730,8 @@
     <MESSAGE value="学习多线程爬虫" />
     <MESSAGE value="多进程、协程" />
     <MESSAGE value="爬了16-17赛季以来英超联赛每一轮的俱乐部数据，存在MongoDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="爬了16-17赛季以来英超联赛每一轮的俱乐部数据，存在MongoDB" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -674,27 +750,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/e.py" />
-    <entry file="file://$PROJECT_DIR$/file/player_turn1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/player_season.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="449">
-          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DV/player_turn_radar.ipynb" />
     <entry file="file://$PROJECT_DIR$/DV/tett.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -725,7 +780,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Premier/Player_Season_Keeper.py" />
-    <entry file="file://$PROJECT_DIR$/file/player_season_keeper.csv">
+    <entry file="file://$PROJECT_DIR$/Data/player_season_keeper.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
           <column index="0" width="100" />
@@ -780,31 +840,26 @@
           <column index="49" width="100" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file/player_season_attacking+midfield.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Data/player_season_attacking+midfield.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/club.py" />
-    <entry file="file://$PROJECT_DIR$/file/club_turn1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Data/club_turn1.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DV/clubs_turn_charts.py" />
@@ -959,13 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/aaa_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/Player_Turn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1489">
@@ -1001,39 +1049,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file/England17-18.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Data/England17-18.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="305">
           <caret line="759" column="95" lean-forward="false" selection-start-line="759" selection-start-column="95" selection-end-line="759" selection-end-column="95" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/England16-17.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/England16-17.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s_douban.py">
+    <entry file="file://$PROJECT_DIR$/Test/s_douban.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="171" column="47" lean-forward="false" selection-start-line="171" selection-start-column="47" selection-end-line="171" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/aaa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/Club_History.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
+        <state relative-caret-position="0">
           <caret line="22" column="98" lean-forward="false" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
           <folding>
             <element signature="e#208#217#0" expanded="true" />
@@ -1042,23 +1108,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/Test/dkjsskdfhs" />
+    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/aaa_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="171" column="47" lean-forward="false" selection-start-line="171" selection-start-column="47" selection-end-line="171" selection-end-column="47" />
-          <folding>
-            <element signature="e#195#209#0" expanded="true" />
-            <marker date="1571129943522" expanded="true" signature="1529:1606" ph="INSERT INTO test... " />
-            <marker date="1571129943522" expanded="true" signature="3260:3392" ph="INSERT INTO premier... " />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/aaa.py">
+    <entry file="file://$PROJECT_DIR$/Test/gogogo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 import json
 
-with open('file/items.json') as f:
+with open('Data/items.json') as f:
     rownum = 0
     new_list = json.load(f)
     for i in new_list:

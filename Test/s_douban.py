@@ -2,7 +2,7 @@ import json
 import csv
 import pymysql
 
-with open('file/douban.json') as f:
+with open('Data/douban.json') as f:
     rownum = 0
     new_list = json.load(f)
     for item in new_list:

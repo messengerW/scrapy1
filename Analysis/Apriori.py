@@ -5,26 +5,14 @@
     Ps     : ...
     
 """
+from Analysis import getData
 
 
 def loadDataSet():
-    """
-    生成数据集
-    :arg A : 控球率达到 65%
-    :arg B : 传球成功率达到 85%
-    :arg C : 射正 5 脚以上
-    :arg D : 主场
-    :arg E : 获得本场比赛胜利
-    """
-    return [['A', 'B', 'C', 'D', 'E'], ['B', 'C'], ['A', 'B', 'C', 'D', 'E'], [], ['C'],
-            ['B', 'D', 'E'], ['C'], ['D'], [], ['A', 'B', 'C', 'D', 'E'], [],
-            ['A', 'B', 'C', 'D', 'E'], ['C'], ['D', 'E'], ['A', 'B', 'C'], [],
-            ['C', 'D', 'E'], ['B', 'C'], ['A', 'B', 'C', 'D', 'E'], ['C', 'D', 'E'],
-            ['C', 'E'], ['A', 'B'], ['A', 'B', 'C', 'D', 'E'], ['A', 'B', 'D'], ['A', 'C'],
-            ['A', 'B', 'C', 'D', 'E'], ['A', 'B'], ['B', 'C', 'D', 'E'], [], ['A', 'C', 'D', 'E'],
-            ['C'], ['D', 'E'], ['A', 'C'], ['B', 'C', 'D', 'E'], ['A', 'B', 'C'],
-            ['A', 'B', 'C', 'D', 'E'], ['A'], ['B', 'C', 'D', 'E']
-            ]
+    # 获取数据集，调用的是 getData 类中的 getDataset1() 方法
+    datalist = [[0 for col in range(5)] for row in range(38)]
+    data = getData.getDataset1(datalist)
+    return data
 
 
 def createC1(dataSet):
@@ -145,7 +133,7 @@ def rulesFromConseq(freqSet, H, supportData, brl, minConf=0.5):
 
 if __name__ == '__main__':
     dataSet = loadDataSet()
-    L, suppData = apriori(dataSet, 0.3)
+    L, suppData = apriori(dataSet, 0.4)
     i = 0
     for one in L:
         print("项数为 %s 的频繁项集：" % (i + 1), one, "\n")

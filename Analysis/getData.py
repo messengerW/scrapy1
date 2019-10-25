@@ -10,10 +10,14 @@ import pandas as pd
 
 
 def getDataset1(dataset):
+    """
+    :param dataset: 接收传来的空列表，将从Excel中读取到的数据清洗后存入dataset
+    :return: 返回数据集，格式为列表
+
+    """
+
     data = pd.read_excel('liverpool.xlsx', sheet_name='game')
     # print(data)
-    # dataset = [[0 for col in range(5)] for row in range(38)]
-    # print(OverallList)
 
     possessionList = data['possession'].values.tolist()
     passcompleteList = data['pass_completed_rate'].values.tolist()
@@ -23,12 +27,12 @@ def getDataset1(dataset):
 
     for i in range(38):
         """
-            :param possession, 分为10档, A0：0~10%, A1：10%~20% ...
-            :param passcompleterate,分为10档, B0, B1, B2 ...
-            :param shoot, 分为10档, C0:0~3, C1:4~6, C2 ...
-            :param homeaway D1:主场, D2:客场
-            :param winorlose E1:胜, E2:平, E3:负
-            
+            possession, 分为10档, A0:0~10%, A1:10%~20%, ...
+            passcompleterate,分为10档, B0:0~10%, B1:10%~20%, ...
+            shoot, 分为10档, C0:0~3, C1:4~6, ...
+            homeaway D1:主场, D2:客场
+            winorlose E1:胜, E2:平, E3:负
+                     
         """
         # 控球率，分为 10 档
         possession = possessionList[i]
@@ -121,7 +125,7 @@ def getDataset1(dataset):
         # 胜平负这个需要稍做处理，具体的参考下面:由比分得出胜负
         score = scoreList[i]
         goals1 = re.match(r'(\d+)', score).group()
-        goals2 = re.search(r'(\:\s)(\d+)', score).group(2)
+        goals2 = re.search(r'(\s)(\d+)', score).group(2)
         delt = int(goals1) - int(goals2)
         if delt > 0:
             dataset[i][4] = 'E1'
@@ -131,3 +135,9 @@ def getDataset1(dataset):
             dataset[i][4] = 'E3'
 
     return dataset
+
+
+# 打印一下瞅瞅
+datalist = [[0 for col in range(5)] for row in range(38)]
+data = getDataset1(datalist)
+print(data)

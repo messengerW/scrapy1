@@ -138,6 +138,6 @@ def getDataset1(dataset):
 
 
 # 打印一下瞅瞅
-datalist = [[0 for col in range(5)] for row in range(38)]
-data = getDataset1(datalist)
-print(data)
+# datalist = [[0 for col in range(5)] for row in range(38)]
+# data = getDataset1(datalist)
+# print(data)

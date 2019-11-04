@@ -13,6 +13,8 @@ class Scrapy1Item(scrapy.Item):
     # name = scrapy.Field()
     pass
 
+class StationItem(scrapy.Item):
+    station = scrapy.Field()
 
 class ItcastItem(scrapy.Item):
     name = scrapy.Field()

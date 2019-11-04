@@ -99,7 +99,7 @@ ITEM_PIPELINES = {
     #'scrapy1.pipelines.DoubanPipeline': 100,
     #'scrapy1.pipelines.PlayerPipeline': 200,
     #'scrapy1.pipelines.ClubPipeline': 100,
-    'scrapy1.pipelines.MongoDBPipeline': 300,
+    # 'scrapy1.pipelines.MongoDBPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

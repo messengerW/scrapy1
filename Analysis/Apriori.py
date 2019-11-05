@@ -134,7 +134,7 @@ def rulesFromConseq(freqSet, H, supportData, brl, minConf):
     :param H:频繁项集中的所有元素，即可以出现在规则右部的元素
     :param supportData:所有项集的支持度信息
     :param brl:生成的规则
-    :param minConf:最小可信度
+    :param minConf:最小置信度
     :return:
     """
     m = len(H[0])
@@ -167,6 +167,22 @@ def generateRules(L, supportData, minConf):
                 calcConf(freqSet, H1, supportData, bigRuleList, minConf)
     return bigRuleList
 
+# 上面的寻找关联规则的算法有问题，前件只能是单个属性
+
+def generate_big_rules(L, supportData, minConf):
+    big_rule_list = []
+    sub_set_list = []
+    for i in range(0, len(L)):
+        for freq_set in L[i]:
+            for sub_set in sub_set_list:
+                if sub_set.issubset(freq_set):
+                    conf = supportData[freq_set] / supportData[freq_set - sub_set]
+                    big_rule = (freq_set - sub_set, sub_set, conf)
+                    if conf >= minConf and big_rule not in big_rule_list:
+                        # print freq_set-sub_set, " => ", sub_set, "conf: ", conf
+                        big_rule_list.append(big_rule)
+            sub_set_list.append(freq_set)
+    return big_rule_list
 
 if __name__ == '__main__':
     dataSet = loadDataSet()
@@ -176,4 +192,6 @@ if __name__ == '__main__':
         print("项数为 %s 的频繁项集：" % (i + 1), one, "\n")
         i += 1
 
-    rules = generateRules(L, suppData, 0.8)
+    rules = generate_big_rules(L, suppData, 0.8)
+    for rule in rules:
+        print(rule[0], "=>", rule[1], "conf: ", rule[2])

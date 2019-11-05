@@ -2,13 +2,25 @@
     File   : Exam_1.py
     Author : msw
     Date   : 2019/10/29 21:13
-    Ps     : ...
+    Ps     :《数据仓库与数据挖掘》-实验一-数据预处理
+            1)首先根据样本的最后一项特征(Defective)的值将样本分为：有缺陷样本/无缺陷样本;
+            2)计算近邻值 k 并返回;
+            3)计算每一条缺陷样本的所有标准欧氏距离,以二维列表(Double_List)的形式返回结果;
+            4)对 Double_List 的每一行(代表一条缺陷样本)分别进行排序, 找出每一行最小的 k 个标准欧氏距离,
+              这 k 个值对应的样本即为本条缺陷样本的近邻样本, 把这 k 个值的样本序号存在 adjacent_sample
+              中, 最终返回结果二维列表 adjacent_sample
+            5)根据 adjacent_sample 中的近邻样本序号, 计算特征差值, 更新特征权重
+            6)最终对特征权重进行降序排序, 打印显示结果.
 
 """
 from scipy.io import arff
 import pandas as pd
 import numpy as np
+from scipy.spatial.distance import pdist
 
+globals = {
+    'nan': 0
+}
 
 def getStandardizedEDList(dataframe):
     """
@@ -39,24 +51,43 @@ def getStandardizedEDList(dataframe):
 
     for i, v1 in enumerate(vec1):
         for j, v2 in enumerate(vec2):
-            Vec = np.hstack([v1, v2])
-            sk = np.var(Vec, axis=0, ddof=1)
-            sed = np.sqrt(((v1 - v2) ** 2 / sk).sum())
+            Vec = np.vstack([v1, v2])
+
+            # method-1:公式计算
+            # sk = np.var(Vec, axis=0, ddof=1)
+            # sed = np.sqrt(((v1 - v2) ** 2 / sk).sum())
+            # method-2:调用库
+            sed = pdist(Vec,'seuclidean')
             Double_List[i][j] = sed
     # print(Standardized_ED_List, len(Standardized_ED_List), len(Standardized_ED_List[0]))
     return k, Double_List, df1, df2
 
-
-def ruler(elem):
-    return elem[1]
-
-
 def changeToTupleList(_list):
+    """
+    因为这次实验中很多排序都需要记录下标值，比如说对标准欧氏距离排序，排序的目的是得到最小的k个标准欧氏距离
+    对应的样本序号，所以我先把列表从
+    [value1,value2,...,valueN]
+    转化为
+    [(index1,value1), (index2,value2),...,(indexN,valueN)].
+    这样对 value 排序后仍然保留原来的索引值。
+    +++++++++++++++++++++++++++++++++++++++++
+    + 其实有更好的方法：numpy.argsort()函数     +
+    +    arr = [2,1,4,5,7,3,6]              +
+    +    print(np.sort(arr))                +
+    +    print(np.argsort(arr))             +
+    +++++++++++++++++++++++++++++++++++++++++
+    :param _list:
+    :return:
+    """
     for _index, _value in enumerate(_list):
         index_value = '({0},{1})'.format(_index, _value)
-        _tuple = eval(index_value)
+        _tuple = eval(index_value, globals)
         _list[_index] = _tuple
     return _list
+
+# 自定义排序的规则
+def ruler(elem):
+    return elem[1]
 
 
 def getAdjacentSample(k, Standardized_ED_List):
@@ -93,7 +124,7 @@ def calculateDiff(aslist, dataframe1, dataframe2):
         我的想法是把这37个特征值组成一个series存到 dataframe1(42×37)的最后一行,然后一共要更新
     42(第一个for循环) × 7(第二个for循环) 次
         每次更新操作: 计算出37个特征差值 -> 求绝对值 -> 排序 -> 赋权重(1~37) -> 累加 ->更新 dataframe1
-        
+
     :param aslist:近邻样本id列表 (42×7) (type:list)
     :param dataframe1:缺陷样本 (42×37) (type:dataframe)
     :param dataframe2:无缺样本 (302×37) (type:dataframe)
@@ -130,10 +161,11 @@ def calculateDiff(aslist, dataframe1, dataframe2):
             # 根据特征差值序列更新特征权重列表, feature_tuple[0]:feature_id, feature_tuple[1]:feature_value
             for feature_tuple in copylist:
                 _id = feature_tuple[0]
-                _weight = diffvaluelist.index(feature_tuple) + 1
+                _weight = diffvaluelist.index(feature_tuple)+1
                 DiffWeight[_id] = DiffWeight[_id] + _weight
 
     return DiffWeight
+
 
 def sortFeature(dataframe1, DiffWeight):
     """
@@ -155,11 +187,9 @@ def sortFeature(dataframe1, DiffWeight):
     for _tuple in DiffWeight:
         Result.append(FeatureList[_tuple[0]])
     # 打印验证一下
-    # print(DiffWeight)
-    # for i in range(len(Result)):
-    #     print("%d:%s - %s" % (i, FeatureList[i], Result[i]))
-    
+    print(DiffWeight)
     return Result
+
 
 if __name__ == '__main__':
     # 获取数据
@@ -173,11 +203,15 @@ if __name__ == '__main__':
     #   df1: 存储所有缺陷样本的dataframe
     #   df2: 存储所有五缺陷样本的dataframe
     k, Standardized_ED_List, df1, df2 = getStandardizedEDList(df)
+
     # 调用 getAdjacentSample() 函数，得到一个包含每条缺陷样本对应近邻样本的id列表 (42×7)
     Adjacent_Sample_List = getAdjacentSample(k, Standardized_ED_List)
+    # print(Adjacent_Sample_List)
+
     # 调用 calculateDiff() 函数，得到特征权重列表 (1×37)
     Diff_Weight_List = calculateDiff(Adjacent_Sample_List, df1, df2)
+
     # 最后调用 sortFeature() 函数，根据特征权重列表对所有特征进行排序，并返回最终结果列表
     result = sortFeature(df1, Diff_Weight_List)
     # 打印输出
-    print(result)
+    # print(result)

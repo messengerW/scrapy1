@@ -7,14 +7,36 @@
 """
 from Analysis import getData
 
+
 def load_data_set():
     """
     Load a sample data set (From Data Mining: Concepts and Techniques, 3th Edition)
     Returns:
         A data set: A list of transactions. Each transaction contains several items.
     """
-    datalist = [[0 for col in range(5)] for row in range(38)]
-    data = getData.getDataset1(datalist)
+    # datalist = [[0 for col in range(5)] for row in range(38)]
+    # data = getData.getDataset1(datalist)
+
+    # test1
+    # data = [['牛奶', '啤酒', '尿布'],
+    #         ['牛奶', '面包', '黄油'],
+    #         ['牛奶', '尿布', '饼干'],
+    #         ['面包', '黄油', '饼干'],
+    #         ['啤酒', '尿布', '饼干'],
+    #         ['牛奶', '尿布', '面包', '黄油'],
+    #         ['尿布', '面包', '黄油'],
+    #         ['啤酒', '尿布'],
+    #         ['牛奶', '尿布', '面包', '黄油'],
+    #         ['啤酒', '饼干'],
+    #         ]
+
+    # test2
+    data = [['黄河鲤鱼', '北京烤鸭', '大拌菜', '麻婆豆腐', '红烧肥肠', '啤酒 '],
+            ['大拌菜', '麻婆豆腐', '红烧肥肠', '米饭', '啤酒'],
+            ['黄河鲤鱼', '北京烤鸭', '大拌菜'],
+            ['北京烤鸭', '大拌菜', '麻婆豆腐', '红烧肥肠', '啤酒'],
+            ['麻婆豆腐', '红烧肥肠', '米饭', '啤酒'],
+            ]
     return data
 
 
@@ -71,7 +93,7 @@ def create_Ck(Lksub1, k):
             l2 = list(list_Lksub1[j])
             l1.sort()
             l2.sort()
-            if l1[0:k-2] == l2[0:k-2]:
+            if l1[0:k - 2] == l2[0:k - 2]:
                 Ck_item = list_Lksub1[i] | list_Lksub1[j]
                 # pruning
                 if is_apriori(Ck_item, Lksub1):
@@ -124,7 +146,7 @@ def generate_L(data_set, k, min_support):
     Lksub1 = L1.copy()
     L = []
     L.append(Lksub1)
-    for i in range(2, k+1):
+    for i in range(2, k + 1):
         Ci = create_Ck(Lksub1, i)
         Li = generate_Lk_by_Ck(data_set, Ci, min_support, support_data)
         Lksub1 = Li.copy()
@@ -163,12 +185,12 @@ if __name__ == "__main__":
     Test
     """
     data_set = load_data_set()
-    L, support_data = generate_L(data_set, k=3, min_support=0.4)
-    big_rules_list = generate_big_rules(L, support_data, min_conf=0.7)
+    L, support_data = generate_L(data_set, k=3, min_support=0.5)
+    big_rules_list = generate_big_rules(L, support_data, min_conf=0.8)
     for Lk in L:
-        print("="*50)
+        print("=" * 50)
         print("frequent " + str(len(list(Lk)[0])) + "-itemsets\t\tsupport")
-        print("="*50)
+        print("=" * 50)
         for freq_set in Lk:
             print(freq_set, support_data[freq_set])
     print("Big Rules")

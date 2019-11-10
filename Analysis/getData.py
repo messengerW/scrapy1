@@ -16,7 +16,7 @@ def getDataset1(dataset):
 
     """
 
-    data = pd.read_excel('liverpool.xlsx', sheet_name='game')
+    data = pd.read_excel('D:/PyCharm 2017.3.3/proj/scrapy1/Analysis/liverpool.xlsx', sheet_name='game')
     # print(data)
 
     possessionList = data['possession'].values.tolist()

@@ -1,12 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="035bbb24-99e8-447f-8319-d826869f8888" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Analysis/zb.py" />
+    <list default="true" id="035bbb24-99e8-447f-8319-d826869f8888" name="Default" comment="fpxwinwinwin">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Analysis/K-means.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Analysis/Portland.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Analysis/kmeans.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Analysis/places.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Analysis/testSet.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Analysis/ttt.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Analysis/Premier_Cluster.ipynb" afterPath="$PROJECT_DIR$/Analysis/Premier_Cluster.ipynb" />
-      <change beforePath="$PROJECT_DIR$/Analysis/getData.py" afterPath="$PROJECT_DIR$/Analysis/getData.py" />
+      <change beforePath="$PROJECT_DIR$/Data/clubs.csv" afterPath="$PROJECT_DIR$/SpiderFile/clubs.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/douban.json" afterPath="$PROJECT_DIR$/SpiderFile/douban.json" />
+      <change beforePath="$PROJECT_DIR$/Data/game.csv" afterPath="$PROJECT_DIR$/SpiderFile/game.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/game.json" afterPath="$PROJECT_DIR$/SpiderFile/game.json" />
+      <change beforePath="$PROJECT_DIR$/Data/items.json" afterPath="$PROJECT_DIR$/SpiderFile/items.json" />
+      <change beforePath="$PROJECT_DIR$/Data/p.json" afterPath="$PROJECT_DIR$/SpiderFile/p.json" />
+      <change beforePath="$PROJECT_DIR$/Data/player_season.csv" afterPath="$PROJECT_DIR$/SpiderFile/player_season.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/player_turn1.csv" afterPath="$PROJECT_DIR$/SpiderFile/player_turn1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/player_turn2.csv" afterPath="$PROJECT_DIR$/SpiderFile/player_turn2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/player_turn3.csv" afterPath="$PROJECT_DIR$/SpiderFile/player_turn3.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/player_turn4.csv" afterPath="$PROJECT_DIR$/SpiderFile/player_turn4.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/player_turn5.csv" afterPath="$PROJECT_DIR$/SpiderFile/player_turn5.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Bournemouth1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Bournemouth1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Bournemouth2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Bournemouth2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Brighton1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Brighton1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Brighton2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Brighton2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Burnley1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Burnley1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Burnley2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Burnley2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Cardiff1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Cardiff1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Cardiff2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Cardiff2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Crystal1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Crystal1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Crystal2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Crystal2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Everton1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Everton1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Everton2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Everton2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Fulham1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Fulham1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Fulham2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Fulham2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Huddersfield1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Huddersfield1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Huddersfield2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Huddersfield2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Leicester1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Leicester1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Leicester2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Leicester2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Newcastle1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Newcastle1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Newcastle2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Newcastle2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Southampton1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Southampton1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Southampton2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Southampton2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Watford1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Watford1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Watford2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Watford2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/WestHamUtd1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/WestHamUtd1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/WestHamUtd2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/WestHamUtd2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Wolf1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Wolf1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/Wolf2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/Wolf2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/arsenal1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/arsenal1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/arsenal2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/arsenal2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/chelsea1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/chelsea1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/chelsea2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/chelsea2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/liverpool1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/liverpool1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/liverpool2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/liverpool2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/mancity1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/mancity1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/mancity2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/mancity2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/manutd1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/manutd1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/manutd2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/manutd2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/tottenham1.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/tottenham1.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/premier/tottenham2.csv" afterPath="$PROJECT_DIR$/SpiderFile/premier/tottenham2.csv" />
+      <change beforePath="$PROJECT_DIR$/Data/teacher.html" afterPath="$PROJECT_DIR$/SpiderFile/teacher.html" />
       <change beforePath="$PROJECT_DIR$/Test/Course/Exam_2.py" afterPath="$PROJECT_DIR$/Test/Course/Exam_2.py" />
+      <change beforePath="$PROJECT_DIR$/Test/s_douban.py" afterPath="$PROJECT_DIR$/Test/s_douban.py" />
+      <change beforePath="$PROJECT_DIR$/Test/s_game.py" afterPath="$PROJECT_DIR$/Test/s_game.py" />
+      <change beforePath="$PROJECT_DIR$/Test/s_tieba.py" afterPath="$PROJECT_DIR$/Test/s_tieba.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy1/spiders/Exercise/itcast.py" afterPath="$PROJECT_DIR$/scrapy1/spiders/Exercise/itcast.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +78,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/scrapy1$process1.coverage" NAME="process1 Coverage Results" MODIFIED="1569479223320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
-    <SUITE FILE_PATH="coverage/scrapy1$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1568293270339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$tett.coverage" NAME="tett Coverage Results" MODIFIED="1568449713268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
+    <SUITE FILE_PATH="coverage/scrapy1$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1573470507709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$rader.coverage" NAME="rader Coverage Results" MODIFIED="1568440525368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
     <SUITE FILE_PATH="coverage/scrapy1$aaa_test.coverage" NAME="aaa_test Coverage Results" MODIFIED="1572325705650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$douban.coverage" NAME="douban Coverage Results" MODIFIED="1556000812828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
@@ -34,7 +95,7 @@
     <SUITE FILE_PATH="coverage/scrapy1$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1571387969510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$testttt.coverage" NAME="testttt Coverage Results" MODIFIED="1568291043917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$getData.coverage" NAME="getData Coverage Results" MODIFIED="1572076805556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
-    <SUITE FILE_PATH="coverage/scrapy1$scrapy1.coverage" NAME="scrapy1 Coverage Results" MODIFIED="1573381864085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/scrapy1$scrapy1.coverage" NAME="scrapy1 Coverage Results" MODIFIED="1573471513280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/scrapy1$gevent1.coverage" NAME="gevent1 Coverage Results" MODIFIED="1571057293658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/MultiThreads" />
     <SUITE FILE_PATH="coverage/scrapy1$clubs_radar2.coverage" NAME="clubs_radar2 Coverage Results" MODIFIED="1568524639976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
     <SUITE FILE_PATH="coverage/scrapy1$learn_xlwings.coverage" NAME="learn_xlwings Coverage Results" MODIFIED="1559474300686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
@@ -68,6 +129,7 @@
     <SUITE FILE_PATH="coverage/scrapy1$pie.coverage" NAME="pie Coverage Results" MODIFIED="1558263934541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
     <SUITE FILE_PATH="coverage/scrapy1$bar.coverage" NAME="bar Coverage Results" MODIFIED="1559050921830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DV" />
     <SUITE FILE_PATH="coverage/scrapy1$process2.coverage" NAME="process2 Coverage Results" MODIFIED="1569480937857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
+    <SUITE FILE_PATH="coverage/scrapy1$kkk.coverage" NAME="kkk Coverage Results" MODIFIED="1573473124546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$tieba.coverage" NAME="tieba Coverage Results" MODIFIED="1555935977548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$Apriori1.coverage" NAME="Apriori1 Coverage Results" MODIFIED="1571669068996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$geo.coverage" NAME="geo Coverage Results" MODIFIED="1558264738806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dir" />
@@ -80,9 +142,11 @@
     <SUITE FILE_PATH="coverage/scrapy1$test222.coverage" NAME="test222 Coverage Results" MODIFIED="1558325234898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$CutLines.coverage" NAME="CutLines Coverage Results" MODIFIED="1571643277605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/scrapy1$bbb.coverage" NAME="bbb Coverage Results" MODIFIED="1568554251780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
+    <SUITE FILE_PATH="coverage/scrapy1$K_means.coverage" NAME="K-means Coverage Results" MODIFIED="1573459509830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$itcast.coverage" NAME="itcast Coverage Results" MODIFIED="1555937076801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$FP_Growth.coverage" NAME="FP-Growth Coverage Results" MODIFIED="1572160367456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$test_tieba__1_.coverage" NAME="test_tieba (1) Coverage Results" MODIFIED="1555937009537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scrapy1$KMeans.coverage" NAME="KMeans Coverage Results" MODIFIED="1573477351026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$gogogo.coverage" NAME="gogogo Coverage Results" MODIFIED="1571388050672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/scrapy1$Apriori_UsePackage.coverage" NAME="Apriori_UsePackage Coverage Results" MODIFIED="1573369694149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$ma.coverage" NAME="ma Coverage Results" MODIFIED="1573009137871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
@@ -107,21 +171,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Exam_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Course/Exam_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="188" column="69" lean-forward="false" selection-start-line="188" selection-start-column="69" selection-end-line="188" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Premier_Cluster.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Analysis/Premier_Cluster.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="4" />
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="K-means.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/K-means.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="84" column="10" lean-forward="true" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+              <folding>
+                <element signature="e#112#131#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,8 +195,8 @@
       <file leaf-file-name="pyplot.py" pinned="false" current-in-tab="true">
         <entry file="file://D:/python3.6/Lib/site-packages/matplotlib/pyplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6905">
-              <caret line="3339" column="4" lean-forward="false" selection-start-line="3339" selection-start-column="4" selection-end-line="3339" selection-end-column="4" />
+            <state relative-caret-position="-1085">
+              <caret line="233" column="4" lean-forward="false" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -174,6 +240,9 @@
       <find>sortRule</find>
       <find>DiffWeight</find>
       <find>eval</find>
+      <find>np.</find>
+      <find>print</find>
+      <find>maker</find>
     </findStrings>
     <replaceStrings>
       <replace>game_list</replace>
@@ -203,10 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scrapy1/spiders/thread_1.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/thread_2.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/thread_5.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/thread2.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/thread1.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/thread_0.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/process1.py" />
@@ -243,7 +308,6 @@
         <option value="$PROJECT_DIR$/scrapy1/pipelines.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Exercise/station.py" />
         <option value="$PROJECT_DIR$/Analysis/FP-growth.py" />
-        <option value="$PROJECT_DIR$/Analysis/Apriori_New.py" />
         <option value="$PROJECT_DIR$/Analysis/Apriori.py" />
         <option value="$PROJECT_DIR$/Test/Course/Exam1.py" />
         <option value="$PROJECT_DIR$/Test/Course/Exam_1.py" />
@@ -253,7 +317,12 @@
         <option value="$PROJECT_DIR$/Analysis/zb.py" />
         <option value="$PROJECT_DIR$/Analysis/getData.py" />
         <option value="$PROJECT_DIR$/Test/Course/Exam_2.py" />
+        <option value="$PROJECT_DIR$/Analysis/Apriori_New.py" />
+        <option value="$PROJECT_DIR$/Analysis/kkk.py" />
+        <option value="$PROJECT_DIR$/Analysis/ttt.py" />
         <option value="$PROJECT_DIR$/Analysis/Premier_Cluster.ipynb" />
+        <option value="$PROJECT_DIR$/Analysis/KMeans.py" />
+        <option value="$PROJECT_DIR$/Analysis/K-means.py" />
       </list>
     </option>
   </component>
@@ -319,28 +388,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="scrapy1" type="cbb8eebc:String" user="scrapy1" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="scrapy1" type="cbb8eebc:String" user="scrapy1" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="scrapy1" type="cbb8eebc:String" user="scrapy1" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
-              <item name="dataSources" type="cbb8eebc:String" user="dataSources" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -377,6 +424,48 @@
               <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="1699770153" type="70582d5e:PySkeletonsNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="1699770153" type="70582d5e:PySkeletonsNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="1699770153" type="70582d5e:PySkeletonsNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="python3.6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,6 +473,13 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
@@ -402,6 +498,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="scrapy1" type="cbb8eebc:String" user="scrapy1" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="scrapy1" type="cbb8eebc:String" user="scrapy1" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="scrapy1" type="cbb8eebc:String" user="scrapy1" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+              <item name="dataSources" type="cbb8eebc:String" user="dataSources" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,16 +531,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\Analysis" />
-      <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\Test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\Test\Course" />
       <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\Analysis" />
       <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\Test" />
       <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\MultiThreads" />
       <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\scrapy1\spiders\Others" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\Analysis" />
+      <recent name="D:\PyCharm 2017.3.3\proj\scrapy1\Test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -437,83 +555,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jupyter Notebook.scrapy1">
-    <configuration name="Apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="scrapy1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis/Apriori.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Apriori_New" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="scrapy1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis/Apriori_New.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Apriori_UsePackage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="scrapy1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis/Apriori_UsePackage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Exam_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test/Course" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="scrapy1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Course/Exam_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.KMeans">
     <configuration name="Exam_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -528,6 +570,82 @@
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Course/Exam_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="K-means" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scrapy1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm 2017.3.3\proj\scrapy1\Analysis\K-means.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="KMeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scrapy1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm 2017.3.3\proj\scrapy1\Analysis\K-means.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="kkk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scrapy1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm 2017.3.3\proj\scrapy1\Analysis\kmeans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ttt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scrapy1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis/ttt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -552,19 +670,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.scrapy1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Exam_1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Apriori_UsePackage" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Exam_2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Apriori" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Apriori_New" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Exam_2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ttt" />
+      <item index="3" class="java.lang.String" itemvalue="Python.K-means" />
+      <item index="4" class="java.lang.String" itemvalue="Python.KMeans" />
+      <item index="5" class="java.lang.String" itemvalue="Python.kkk" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Exam_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Apriori_UsePackage" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Apriori_New" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Apriori" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Exam_1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.KMeans" />
+        <item index="1" class="java.lang.String" itemvalue="Python.kkk" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ttt" />
+        <item index="3" class="java.lang.String" itemvalue="Python.K-means" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Exam_2" />
       </list>
     </recent_temporary>
   </component>
@@ -764,7 +882,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573224243509</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fpxwinwinwin">
+      <created>1573388446657</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1573388446657</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -781,15 +906,16 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="435" height="842" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781065" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2781065" sideWeight="0.49585798" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3112426" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27213824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27699783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781065" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2737581" sideWeight="0.504142" order="2" side_tool="true" content_ui="tabs" />
@@ -800,7 +926,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781065" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -869,7 +994,8 @@
     <MESSAGE value="温习一下爬虫&amp;Mongo" />
     <MESSAGE value="exam2-apriori" />
     <MESSAGE value="kkk" />
-    <option name="LAST_COMMIT_MESSAGE" value="kkk" />
+    <MESSAGE value="fpxwinwinwin" />
+    <option name="LAST_COMMIT_MESSAGE" value="fpxwinwinwin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -888,44 +1014,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/douban.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="49" column="120" lean-forward="false" selection-start-line="49" selection-start-column="120" selection-end-line="49" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/England16-17.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/CutLines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python3.6/Lib/site-packages/apyori.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4540">
-          <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python3.6/Lib/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="396" column="8" lean-forward="false" selection-start-line="396" selection-start-column="8" selection-end-line="396" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/aaa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -944,20 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="975" column="42" lean-forward="true" selection-start-line="975" selection-start-column="13" selection-end-line="975" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1655">
-          <caret line="3389" column="4" lean-forward="false" selection-start-line="3389" selection-start-column="4" selection-end-line="3389" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1699770153/numpy/core/_multiarray_umath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="7571" column="14" lean-forward="true" selection-start-line="7571" selection-start-column="14" selection-end-line="7571" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1116,13 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1699770153/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="276" column="4" lean-forward="false" selection-start-line="276" selection-start-column="4" selection-end-line="276" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/Course/Exam1.py" />
     <entry file="file://D:/python3.6/Lib/site-packages/pandas/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1159,13 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Course/Exam_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="76" column="25" lean-forward="false" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Analysis/zb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1194,13 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/Apriori_New.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="162" column="8" lean-forward="true" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Analysis/Apriori_UsePackage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1208,17 +1261,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis/getData.py">
+    <entry file="file://$PROJECT_DIR$/Test/Course/Exam_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        <state relative-caret-position="5264">
+          <caret line="188" column="69" lean-forward="false" selection-start-line="188" selection-start-column="69" selection-end-line="188" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Course/Exam_2.py">
+    <entry file="file://$PROJECT_DIR$/Analysis/Apriori_New.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="188" column="69" lean-forward="false" selection-start-line="188" selection-start-column="69" selection-end-line="188" selection-end-column="69" />
+        <state relative-caret-position="140">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/getData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Course/Exam_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#539#564#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1699770153/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1495">
+          <caret line="6461" column="4" lean-forward="false" selection-start-line="6461" selection-start-column="4" selection-end-line="6461" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1699770153/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="297" column="4" lean-forward="false" selection-start-line="297" selection-start-column="4" selection-end-line="297" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="2045" column="4" lean-forward="false" selection-start-line="2045" selection-start-column="4" selection-end-line="2045" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/places.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/ttt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/testSet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="135" column="29" lean-forward="false" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1226,14 +1354,24 @@
     <entry file="file://$PROJECT_DIR$/Analysis/Premier_Cluster.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="1" />
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/K-means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="84" column="10" lean-forward="true" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+          <folding>
+            <element signature="e#112#131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://D:/python3.6/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6905">
-          <caret line="3339" column="4" lean-forward="false" selection-start-line="3339" selection-start-column="4" selection-end-line="3339" selection-end-column="4" />
+        <state relative-caret-position="-1085">
+          <caret line="233" column="4" lean-forward="false" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
           <folding />
         </state>
       </provider>

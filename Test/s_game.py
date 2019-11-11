@@ -2,7 +2,7 @@ import json
 import csv
 import pymysql
 
-with open('Data/game.json') as f:
+with open('SpiderFile/game.json') as f:
     new_list = json.load(f)
     for item in new_list:
         print('''turn:{}    score:{}    date:{}

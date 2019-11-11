@@ -10,7 +10,7 @@ from Analysis import getData
 
 def load_data_set():
     """
-    Load a sample data set (From Data Mining: Concepts and Techniques, 3th Edition)
+    Load a sample data set (From SpiderFile Mining: Concepts and Techniques, 3th Edition)
     Returns:
         A data set: A list of transactions. Each transaction contains several items.
     """

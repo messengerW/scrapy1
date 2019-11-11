@@ -6,5 +6,5 @@ class ItcastSpider(scrapy.Spider):
     start_urls = ("http://www.itcast.cn/channel/teacher.shtml",)
 
     def parse(self, response):
-        filename = "Data/teacher.html"
+        filename = "SpiderFile/teacher.html"
         open(filename, 'w').write(response.body)

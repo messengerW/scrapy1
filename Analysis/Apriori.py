@@ -187,11 +187,12 @@ def generate_big_rules(L, supportData, minConf):
 if __name__ == '__main__':
     dataSet = loadDataSet()
     L, suppData = apriori(dataSet, 0.4)
-    i = 0
-    for one in L:
-        print("项数为 %s 的频繁项集：" % (i + 1), one, "\n")
-        i += 1
-
     rules = generate_big_rules(L, suppData, 0.8)
-    for rule in rules:
-        print(rule[0], "=>", rule[1], "conf: ", rule[2])
+    for i, _list in enumerate(L):
+        print("频繁" ,i + 1, "项集：")
+        for _elem in _list:
+            print(_elem, "支持度: ", suppData[_elem])
+        for rule in rules:
+            if (len(rule[0]) + len(rule[1])) == i+1:
+                print(rule[0], "=>", rule[1], "conf: ", rule[2])
+        print('\n')

@@ -148,8 +148,8 @@ def generate_big_rules(L, supportData, minConf):
 
 if __name__ == '__main__':
 
-    minSup = 0.5        # 最小支持度
-    minConf = 0.8       # 最小置信度
+    minSup = 0.3        # 最小支持度
+    minConf = 0.7       # 最小置信度
 
     dataSet = loadDataSet()
     L, suppData = apriori(dataSet, minSup)

@@ -32,8 +32,8 @@ def getStandardizedEDList(dataframe):
              4) df2:所有无缺样本 (type:dataframe)
     """
     # 根据 Defective 值进行分类, Y-有缺陷样本 / N-无缺陷样本
-    dataframe1 = dataframe.loc[df['Defective'] == b'Y']
-    dataframe2 = dataframe.loc[df['Defective'] == b'N']
+    dataframe1 = dataframe.loc[dataframe['Defective'] == b'Y']
+    dataframe2 = dataframe.loc[dataframe['Defective'] == b'N']
 
     # 删除每个样本的最后一项特征值
     df1 = dataframe1.drop(columns='Defective')  # 有缺陷样本
@@ -97,7 +97,7 @@ def getAdjacentSample(k, Standardized_ED_List):
     :param Standardized_ED_List:标准欧氏距离列表 (42×302) (type:2D-list)
     :return: 每条缺陷样本的邻近样本id列表 (42×k) (type:2D-list)
     """
-    adjacent_sample = [[0 for col in range(int(k))] for row in range(42)]
+    adjacent_sample = [[0 for col in range(int(k))] for row in range(len(Standardized_ED_List))]
     # 遍历每一条缺陷样本，获取样本 id 以及此样本对应的标准欧氏距离列表(列表大小302)
     for sample_id, sample_sed_list in enumerate(Standardized_ED_List):
         # print(sample_id, sample_sed_list, end='\n\n\n')
@@ -130,8 +130,9 @@ def calculateDiff(aslist, dataframe1, dataframe2):
     :param dataframe2:无缺样本 (302×37) (type:dataframe)
     :return:特征权重列表 (1×37)
     """
-    DiffWeight = [0 for row in range(37)]
-    for i in range(len(dataframe1)):
+    # 声明一个一维列表，长度为 dataframe 的列数（即特征个数）
+    DiffWeight = [0 for row in range(dataframe1.shape[1])]
+    for i in range(dataframe1.shape[0]):
         # 根据行号依次从 dataframe1 中取出每一条缺陷样本 sampleY (type:series)
         sampleY = dataframe1.iloc[i]
         # 获取这条缺陷样本对应的近邻样本 id 列表
@@ -214,4 +215,4 @@ if __name__ == '__main__':
     # 最后调用 sortFeature() 函数，根据特征权重列表对所有特征进行排序，并返回最终结果列表
     result = sortFeature(df1, Diff_Weight_List)
     # 打印输出
-    # print(result)
+    print(result)

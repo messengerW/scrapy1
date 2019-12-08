@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="035bbb24-99e8-447f-8319-d826869f8888" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Course/DecisionTree.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Course/decisionTreePlot.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Course/lenses.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/CM1.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/JM1.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/KC1.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/KC3.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/MC1.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/MC2.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/MW1.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/PC1.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/PC2.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/PC3.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/PC4.arff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Data/PC5.arff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Analysis/DecisionTree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Analysis/ddd.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Test/Course/Exam_1.py" afterPath="$PROJECT_DIR$/Test/Course/Exam_1.py" />
-      <change beforePath="$PROJECT_DIR$/Test/Course/Exam_2.py" afterPath="$PROJECT_DIR$/Test/Course/Exam_2.py" />
+      <change beforePath="$PROJECT_DIR$/Test/Course/DecisionTree.py" afterPath="$PROJECT_DIR$/Test/Course/DecisionTree.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,6 +44,7 @@
     <SUITE FILE_PATH="coverage/scrapy1$test.coverage" NAME="test Coverage Results" MODIFIED="1568879543696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$Exam111.coverage" NAME="Exam111 Coverage Results" MODIFIED="1572358410400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/scrapy1$zb.coverage" NAME="zb Coverage Results" MODIFIED="1573546427284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
+    <SUITE FILE_PATH="coverage/scrapy1$Decision_Tree.coverage" NAME="Decision-Tree Coverage Results" MODIFIED="1575805712626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$s_tieba.coverage" NAME="s_tieba Coverage Results" MODIFIED="1557757391268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapy1$test_tieba.coverage" NAME="test_tieba Coverage Results" MODIFIED="1555941646403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapy1$League_GetUrl.coverage" NAME="League_GetUrl Coverage Results" MODIFIED="1559464963028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
@@ -67,6 +54,7 @@
     <SUITE FILE_PATH="coverage/scrapy1$a.coverage" NAME="a Coverage Results" MODIFIED="1572437494760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/scrapy1$thread_2.coverage" NAME="thread_2 Coverage Results" MODIFIED="1569476800981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$Learn_pandas.coverage" NAME="Learn_pandas Coverage Results" MODIFIED="1571803029084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
+    <SUITE FILE_PATH="coverage/scrapy1$ddd.coverage" NAME="ddd Coverage Results" MODIFIED="1575812272243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$Player_Turn_new.coverage" NAME="Player_Turn_new Coverage Results" MODIFIED="1569053860603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
     <SUITE FILE_PATH="coverage/scrapy1$station.coverage" NAME="station Coverage Results" MODIFIED="1572854695132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Exercise" />
     <SUITE FILE_PATH="coverage/scrapy1$s_douban.coverage" NAME="s_douban Coverage Results" MODIFIED="1556027499728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -90,7 +78,7 @@
     <SUITE FILE_PATH="coverage/scrapy1$thread_0.coverage" NAME="thread_0 Coverage Results" MODIFIED="1569477253375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders" />
     <SUITE FILE_PATH="coverage/scrapy1$Learn_pandas__1_.coverage" NAME="Learn_pandas (1) Coverage Results" MODIFIED="1571744964949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
     <SUITE FILE_PATH="coverage/scrapy1$test111__2_.coverage" NAME="test111 (2) Coverage Results" MODIFIED="1558351671037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
-    <SUITE FILE_PATH="coverage/scrapy1$DecisionTree.coverage" NAME="DecisionTree Coverage Results" MODIFIED="1575352294523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Course" />
+    <SUITE FILE_PATH="coverage/scrapy1$DecisionTree.coverage" NAME="DecisionTree Coverage Results" MODIFIED="1575815058658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Course" />
     <SUITE FILE_PATH="coverage/scrapy1$s_game.coverage" NAME="s_game Coverage Results" MODIFIED="1557759076195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapy1$learn_str.coverage" NAME="learn_str Coverage Results" MODIFIED="1558357563514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scrapy1$test222.coverage" NAME="test222 Coverage Results" MODIFIED="1558325234898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy1/spiders/Premier" />
@@ -128,8 +116,8 @@
       <file leaf-file-name="Exam_1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Course/Exam_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2054">
-              <caret line="132" column="38" lean-forward="false" selection-start-line="132" selection-start-column="38" selection-end-line="132" selection-end-column="38" />
+            <state relative-caret-position="280">
+              <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="51" />
               <folding>
                 <element signature="e#539#564#0" expanded="true" />
               </folding>
@@ -140,10 +128,44 @@
       <file leaf-file-name="DecisionTree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/Course/DecisionTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="351" column="23" lean-forward="false" selection-start-line="351" selection-start-column="23" selection-end-line="351" selection-end-column="23" />
+            <state relative-caret-position="243">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
-                <element signature="e#105#120#0" expanded="true" />
+                <element signature="e#101#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="naive_bayes.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/python3.6/Lib/site-packages/sklearn/naive_bayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5880">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecisionTree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/DecisionTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+              <folding>
+                <element signature="e#106#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ddd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analysis/ddd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="35" column="14" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
+              <folding>
+                <element signature="e#96#115#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,7 +174,7 @@
       <file leaf-file-name="decisionTreePlot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Course/decisionTreePlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="28">
               <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
@@ -229,9 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scrapy1/spiders/process2.py" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/uuurls.txt" />
-        <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/Player_Turn_Gevent.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/gevent1.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/gevent_douban.py" />
         <option value="$PROJECT_DIR$/scrapy1/spiders/Premier/League_GetUrl.py" />
@@ -279,6 +298,9 @@
         <option value="$PROJECT_DIR$/Test/Course/1.py" />
         <option value="$PROJECT_DIR$/Test/Course/Exam_2.py" />
         <option value="$PROJECT_DIR$/Test/Course/Exam_1.py" />
+        <option value="$PROJECT_DIR$/Analysis/Decision-Tree.py" />
+        <option value="$PROJECT_DIR$/Test/Course/decisionTreePlot.py" />
+        <option value="$PROJECT_DIR$/Analysis/ddd.py" />
         <option value="$PROJECT_DIR$/Test/Course/DecisionTree.py" />
       </list>
     </option>
@@ -344,7 +366,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -367,12 +388,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
+              <item name="Analysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
@@ -390,6 +417,70 @@
               <item name="scrapy1" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="sklearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="sklearn" type="462c0819:PsiDirectoryNode" />
+              <item name="neighbors" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -432,7 +523,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.DecisionTree">
-    <configuration name="Apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Decision-Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -445,7 +536,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis/Apriori.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm 2017.3.3\proj\scrapy1\Analysis\DecisionTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -508,7 +599,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="zb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ddd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -521,7 +612,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis/zb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis/ddd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -546,19 +637,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.scrapy1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.zb" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Exam_2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Apriori" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DecisionTree" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Exam_1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Exam_2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DecisionTree" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Exam_1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Decision-Tree" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ddd" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.DecisionTree" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Exam_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Exam_2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.zb" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Apriori" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ddd" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Decision-Tree" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Exam_1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Exam_2" />
       </list>
     </recent_temporary>
   </component>
@@ -786,7 +877,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574596753817</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="exam3">
+      <created>1575353691356</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1575353691356</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -804,12 +902,12 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="435" height="842" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34179264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="435" height="842" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781065" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2781065" sideWeight="0.49585798" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2769231" sideWeight="0.49585798" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30932704" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25539955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25971922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -893,7 +991,8 @@
     <MESSAGE value="fpxwinwinwin" />
     <MESSAGE value="." />
     <MESSAGE value="更新一下数据...13轮" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新一下数据...13轮" />
+    <MESSAGE value="exam3" />
+    <option name="LAST_COMMIT_MESSAGE" value="exam3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -912,76 +1011,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Exercise/tieba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Exercise/player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/League1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/League_GetUrl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/Player_Turn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/Player_Season.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1988">
-          <caret line="85" column="66" lean-forward="false" selection-start-line="85" selection-start-column="66" selection-end-line="85" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/League_ManCity1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-924">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/League_ManCity2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/Club_Season.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy1/spiders/Exercise/Ajax_Douban.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/Club_History.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1039,13 +1068,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Course/Exam1.py" />
-    <entry file="file://D:/python3.6/Lib/site-packages/pandas/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Analysis/Learn_pandas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1181,39 +1203,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpiderFile/club_turn6.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy1/spiders/England/Club_Turn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="19" column="114" lean-forward="false" selection-start-line="19" selection-start-column="114" selection-end-line="19" selection-end-column="114" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpiderFile/club_turn7.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Course/lenses.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,41 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Course/decisionTreePlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Course/Exam_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2054">
-          <caret line="132" column="38" lean-forward="false" selection-start-line="132" selection-start-column="38" selection-end-line="132" selection-end-column="38" />
-          <folding>
-            <element signature="e#539#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/CM1.arff">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10395">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Data/JM1.arff">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268583">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,16 +1247,141 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59003">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6/Lib/site-packages/pandas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="1176" column="0" lean-forward="false" selection-start-line="1176" selection-start-column="0" selection-end-line="1176" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/JM1.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Course/Exam_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="e#539#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Course/decisionTreePlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/PC5.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1680">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Data/CM1.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Course/CM1.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6/Lib/site-packages/sklearn/model_selection/_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6748">
+          <caret line="258" column="4" lean-forward="false" selection-start-line="258" selection-start-column="4" selection-end-line="258" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6/Lib/site-packages/sklearn/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15904">
+          <caret line="746" column="8" lean-forward="false" selection-start-line="746" selection-start-column="8" selection-end-line="746" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/ddd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <element signature="e#96#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analysis/DecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6/Lib/site-packages/sklearn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6/Lib/site-packages/sklearn/neighbors/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6/Lib/site-packages/sklearn/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5880">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Course/DecisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="351" column="23" lean-forward="false" selection-start-line="351" selection-start-column="23" selection-end-line="351" selection-end-column="23" />
+        <state relative-caret-position="243">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <element signature="e#105#120#0" expanded="true" />
+            <element signature="e#101#120#0" expanded="true" />
           </folding>
         </state>
       </provider>

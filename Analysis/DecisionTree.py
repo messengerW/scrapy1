@@ -13,7 +13,7 @@ from math import log
 from scipy.io import arff
 from sklearn.model_selection import KFold
 from collections import Counter
-from Test.Course import Exam_1 as exam1
+from Test.Course import Exam1 as exam1
 from Test.Course import decisionTreePlot as dtPlot
 
 def createDataset():

@@ -6,11 +6,9 @@
     
 """
 import pandas as pd
-from Analysis import DecisionTree
 from scipy.io import arff
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.model_selection import KFold, cross_val_score, StratifiedKFold
+from sklearn.model_selection import cross_val_score, StratifiedKFold
 
 # 加载数据集文件
 file = '../Test/Data/CM1.arff'

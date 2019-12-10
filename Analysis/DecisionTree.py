@@ -6,20 +6,18 @@
     
 """
 import operator
-from math import log
 import numpy as np
 import pandas as pd
 from math import log
 from scipy.io import arff
-from sklearn.model_selection import KFold
-from collections import Counter
-from Test.Course import Exam1 as exam1
 from Test.Course import decisionTreePlot as dtPlot
 
+
 def createDataset():
-    dataSet = [[1,1,'yes'], [1,1,'yes'], [1,0,'no'], [0,1,'no'], [0,1,'no']]
+    dataSet = [[1, 1, 'yes'], [1, 1, 'yes'], [1, 0, 'no'], [0, 1, 'no'], [0, 1, 'no']]
     labels = ['a', 'b']
     return dataSet, labels
+
 
 def calcShannonEntropy(dataSet):
     numEntries = len(dataSet)
@@ -31,9 +29,10 @@ def calcShannonEntropy(dataSet):
         labelCounts[currentLabel] += 1
     shannonEntropy = 0.0
     for key in labelCounts:
-        prob = float(labelCounts[key])/numEntries
-        shannonEntropy -= prob * log(prob,2)
+        prob = float(labelCounts[key]) / numEntries
+        shannonEntropy -= prob * log(prob, 2)
     return shannonEntropy
+
 
 def splitDataSet(dataSet, axis, value):
     retDataSet = []
@@ -41,10 +40,11 @@ def splitDataSet(dataSet, axis, value):
         if featVec[axis] == value:
             # 这两步的作用是获取剔除 axis 列属性后的特征向量
             reducedFeatVec = featVec[:axis]
-            reducedFeatVec.extend(featVec[axis+1:])
+            reducedFeatVec.extend(featVec[axis + 1:])
             # 添加至列表末尾
             retDataSet.append(reducedFeatVec)
     return retDataSet
+
 
 def chooseBestFeature(dataSet):
     """
@@ -88,6 +88,7 @@ def chooseBestFeature(dataSet):
 
     return bestFeature
 
+
 def majorityCnt(classList):
     classCount = {}
     for vote in classList:
@@ -96,6 +97,7 @@ def majorityCnt(classList):
 
     sortedClassCount = sorted(classCount.iteritems(), key=operator.itemgetter(1), reverse=True)
     return sortedClassCount[0][0]
+
 
 def createTree(dataSet, labels):
     """
@@ -118,7 +120,7 @@ def createTree(dataSet, labels):
     # 最优特征对应的特征名映射
     bestFeatLabel = labels[bestFeat]
     # 创建 myTree 字典存储树的所有信息
-    myTree = {bestFeatLabel:{}}
+    myTree = {bestFeatLabel: {}}
     # 从标签列表中删除当前最优特征对应的标签名
     del labels[bestFeat]
     # 本次生成新的分支所选用的最优特征索引值:bestFeat,遍历数据集得到每条样本的最优特征值
@@ -136,10 +138,17 @@ def createTree(dataSet, labels):
 
     return myTree
 
-# myData, labels = createDataset()
-# myTree = createTree(myData, labels)
-# print(myTree)
-# decisionTreePlot.createPlot(myTree)
+
+def test0():
+    """
+    使用CreateDataset生成的默认数据集
+    :return:
+    """
+    myData, labels = createDataset()
+    myTree = createTree(myData, labels)
+    print(myTree)
+    dtPlot.createPlot(myTree)
+
 
 def test1():
     """
@@ -157,17 +166,15 @@ def test1():
     # 获取 labels 列表
     featlabels = df.columns.values.tolist()
 
-    kf = KFold(n_splits=10, shuffle=False, random_state=50)
-    for train_index, test_index in kf.split(df):
-        print('train', len(train_index), 'test', len(test_index))
-
+    # kf = KFold(n_splits=10, shuffle=False, random_state=50)
+    # for train_index, test_index in kf.split(df):
+    #     print('train', len(train_index), 'test', len(test_index))
 
     myTree = createTree(datalist, featlabels)
     dtPlot.createPlot(myTree)
 
+    print(myTree)
 
-
-
-# if __name__ == "__main__":
-#
-#     test1()
+if __name__ == "__main__":
+    # test0()
+    test1()

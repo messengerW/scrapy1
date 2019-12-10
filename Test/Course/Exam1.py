@@ -191,10 +191,12 @@ def sortFeature(dataframe1, DiffWeight):
     print(DiffWeight)
     return Result
 
+def getLog2dfeature(file):
+    return ['HALSTEAD_DIFFICULTY', 'HALSTEAD_LEVEL', 'HALSTEAD_PROG_TIME', 'HALSTEAD_ERROR_EST', 'NUM_OPERANDS']
 
 if __name__ == '__main__':
     # 获取数据
-    file = 'CM1.arff'
+    file = '../Data/JM1.arff'
     data = arff.loadarff(file)
     df = pd.DataFrame(data[0])
 

@@ -20,14 +20,18 @@ def createDataset():
 
 
 def calcShannonEntropy(dataSet):
+    # 先计算样本总个数
     numEntries = len(dataSet)
     labelCounts = {}
+    # 遍历每一条样本，统计数据集中所有样本的类别
     for data in dataSet:
         currentLabel = data[-1]
         if currentLabel not in labelCounts.keys():
             labelCounts[currentLabel] = 0
         labelCounts[currentLabel] += 1
+    # 初始化香农熵
     shannonEntropy = 0.0
+    # 计算香农熵
     for key in labelCounts:
         prob = float(labelCounts[key]) / numEntries
         shannonEntropy -= prob * log(prob, 2)
@@ -35,6 +39,13 @@ def calcShannonEntropy(dataSet):
 
 
 def splitDataSet(dataSet, axis, value):
+    """
+    @Function: 每一次挑选一个特征属性划分数据集(生成分支)后,都需要把数据集中对应的列删除。
+    :param dataSet: 数据集
+    :param axis: 列索引
+    :param value: 列值
+    :return:
+    """
     retDataSet = []
     for featVec in dataSet:
         if featVec[axis] == value:

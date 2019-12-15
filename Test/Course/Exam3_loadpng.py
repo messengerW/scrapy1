@@ -5,19 +5,13 @@
     Ps     : ...
     
 """
-import graphviz
-import numpy as np
 import pandas as pd
 from scipy.io import arff
 from sklearn import tree
-from sklearn import metrics
-from sklearn.naive_bayes import GaussianNB
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import StratifiedKFold, train_test_split
-from Test.Course import Exam1
+from sklearn.model_selection import train_test_split
 
 
-def eval(file):
+def paint(file):
 
     # 解析文件
     data = arff.loadarff(file)
@@ -50,4 +44,4 @@ if __name__ == '__main__':
     # 数据集
     file = './CM1.arff'
 
-    eval(file)
+    paint(file)

@@ -36,7 +36,7 @@ def paint(file):
     clf.fit(xtrain, ytrain)
 
     # 可视化
-    with open('./exam3.dot', 'w', encoding='utf-8') as f:
+    with open('./ee.dot', 'w', encoding='utf-8') as f:
         f = tree.export_graphviz(clf, feature_names=features, out_file=f)
 
 if __name__ == '__main__':

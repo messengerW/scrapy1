@@ -6,7 +6,6 @@
     
 """
 import operator
-import numpy as np
 import pandas as pd
 from math import log
 from scipy.io import arff

@@ -17,7 +17,7 @@ class PlayerTurnSpider(scrapy.Spider):
     name = 'spider_clubturn'
 
     def start_requests(self):
-        url = 'http://www.tzuqiu.cc/matchTeamStatistics/querysStat.json?comeptitionId=1&season=19%2F20&stageName=15'
+        url = 'http://www.tzuqiu.cc/matchTeamStatistics/querysStat.json?comeptitionId=1&season=19%2F20&stageName=18'
         yield Request(url)
 
     def parse(self, response):

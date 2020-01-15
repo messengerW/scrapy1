@@ -12,7 +12,7 @@ class GameSpider(scrapy.Spider):
     start_urls = []
 
     # 设置文件名和路径
-    filepath = 'C:/Users/mushr/Desktop/433/创3/urls.xlsx'
+    filepath = 'C:/Users/mushr/Desktop/433/urls.xlsx'
     # 打开 excel
     book = xlrd.open_workbook(filepath)
     # 获取第一个 sheet

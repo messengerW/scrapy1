@@ -33,11 +33,20 @@ class DoubanItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     name = scrapy.Field()
-    no = scrapy.Field()
+    id = scrapy.Field()
     introduce = scrapy.Field()
-    star = scrapy.Field()
+    score = scrapy.Field()
     num = scrapy.Field()
     info = scrapy.Field()
+
+class HupuItem(scrapy.Item):
+    # 假期无事熟悉一下 spider,爬的是虎扑步行街 https://bbs.hupu.com/bxj
+    title = scrapy.Field()
+    author = scrapy.Field()
+    date = scrapy.Field()
+    time = scrapy.Field()       # 最后回复时间
+    reply = scrapy.Field()
+    browse = scrapy.Field()
 
 
 # class PlayerItem(scrapy.Item):

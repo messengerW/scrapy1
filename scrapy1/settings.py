@@ -90,7 +90,7 @@ MYSQL_CHARSET = 'utf8'
 # 设置 MongoDB 连接
 MONGODB_HOST = 'localhost'                 # MONGODB 主机名
 MONGODB_PORT = 27017                        # MONGODB 端口号
-MONGODB_DBNAME = 'England'                  # 设置数据库名称
+MONGODB_DBNAME = 'test'                  # 设置数据库名称
 MONGODB_COLLECTION = 'club_history'          # 设置存放数据的表名称,可以在pipeline中自己设置
 
 

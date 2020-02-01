@@ -149,9 +149,9 @@ class ClubPipeline(object):
 # 之前一直使用的是 MySQL 数据库，今天试一下 MongoDB，存的是英超联赛之前赛季的数据
 # 2019.10.15
 # 需要使用 mongoDB 的时候
-    1.取消 settings.py 中开通 MongoDBPipeline 的注释;
-    2.更改 self.collection = self.db['bus'] 中的表名;
-    3.当前使用的是 England 数据库,如需更换请前往settings.py更换.
+    1.取消 settings.py 中开通 MongoDBPipeline 的注释（开通管道）;
+    2.更改下面 self.collection = self.db['表名'] 中的表名（更改表）;
+    3.当前使用的是 England 数据库,如需更换请前往 settings.py 更换（更改数据库）.
 """
 class MongoDBPipeline(object):
 
@@ -174,8 +174,9 @@ class MongoDBPipeline(object):
     def open_spider(self, spider):
         self.client = pymongo.MongoClient(self.host, self.port)
         self.db = self.client[self.dbname]
+
         # 表(collection),使用时请更换!
-        self.collection = self.db['bus']
+        self.collection = self.db['hupubbs']
 
     def close_spider(self, spider):
         self.client.close()

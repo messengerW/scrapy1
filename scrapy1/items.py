@@ -48,6 +48,15 @@ class HupuItem(scrapy.Item):
     reply = scrapy.Field()
     browse = scrapy.Field()
 
+class MaoItem(scrapy.Item):
+    comment1 = scrapy.Field()
+    comment2 = scrapy.Field()
+    comment0 = scrapy.Field()
+    author = scrapy.Field()
+    time = scrapy.Field()
+    url = scrapy.Field()
+
+
 
 # class PlayerItem(scrapy.Item):
 #     no = scrapy.Field()

@@ -65,16 +65,16 @@ class GameSpider(scrapy.Spider):
         game_item['score'] = response.xpath("//td[@class='result']/text()").extract_first()
 
         # 进球
-        goals_total = response.xpath(
-            "//div[@id='shotsTab']/div[2]/div[1]/div[3]/span[1]/span[2]/span/text()").extract_first()
-        if goals_total:
-            goals_total = goals_total.strip()
-        else:
-            goals_total = ' '
-        game_item['goals_total'] = goals_total
+        # goals_total = response.xpath(
+        #     "//div[@id='shotsTab']/div[2]/div[1]/div[3]/span[1]/span[2]/span/text()").extract_first()
+        # if goals_total:
+        #     goals_total = goals_total.strip()
+        # else:
+        #     goals_total = ' '
+        # game_item['goals_total'] = goals_total
 
         # 主队进球数
-        game_item['goals_home'] = ''
+        game_item['goals_home'] = response.xpath("//*[@id='shotsTab']/div[2]/div/div[3]/span/span[2]/span/text()").extract_first()
 
         # 客队进球数
         game_item['goals_away'] = ''

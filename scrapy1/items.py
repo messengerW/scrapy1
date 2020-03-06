@@ -252,31 +252,54 @@ class GameItem(scrapy.Item):
     round = scrapy.Field()                         # 轮次
     date = scrapy.Field()                          # 比赛日期
     score = scrapy.Field()                         # 比分
-    goals_total = scrapy.Field()                   # 进球数
-    goals_home = scrapy.Field()                    # 主队进球数
-    goals_away = scrapy.Field()                    # 客队进球数
-    possession = scrapy.Field()                    # 控球率
-    confrontation_win_rate = scrapy.Field()        # 对抗成功率
-    dribble = scrapy.Field()                       # 过人
-    intercept = scrapy.Field()                     # 抢断数
-    mark = scrapy.Field()                          # 球队评分
-    home_or_away = scrapy.Field()                  # 主客场
 
-    # 射门相关
-    shoot_total = scrapy.Field()                   # 射门数，详细分为 5 类
-    shoot_positional = scrapy.Field()              # 阵地战
-    shoot_placekick = scrapy.Field()               # 定位球
-    shoot_counterattack = scrapy.Field()           # 反击
-    penalty = scrapy.Field()                       # 点球
-    own_goal = scrapy.Field()                      # 乌龙球
-    shoot_on_target = scrapy.Field()               # 射正数
+    # 综合信息-主队
+    team1 = scrapy.Field()                          # 主队
+    goals1 = scrapy.Field()                         # 主队进球数
+    possession1 = scrapy.Field()                    # 控球率
+    confrontation_win_rate1 = scrapy.Field()        # 对抗成功率
+    dribble1 = scrapy.Field()                       # 过人
+    intercept1 = scrapy.Field()                     # 抢断数
+    mark1 = scrapy.Field()                          # 球队评分
+    # 综合信息-客队
+    team2 = scrapy.Field()  # 客队
+    goals2 = scrapy.Field()  # 客队进球数
+    possession2 = scrapy.Field()  # 控球率
+    confrontation_win_rate2 = scrapy.Field()  # 对抗成功率
+    dribble2 = scrapy.Field()  # 过人
+    intercept2 = scrapy.Field()  # 抢断数
+    mark2 = scrapy.Field()  # 球队评分
 
-    # 传球相关
-    pass_total = scrapy.Field()                    # 传球数
-    pass_short = scrapy.Field()                    # 短传
-    pass_long = scrapy.Field()                     # 长传
-    pass_center = scrapy.Field()                   # 传中
-    pass_through = scrapy.Field()                  # 直塞
-    pass_completed_rate = scrapy.Field()           # 传球成功率
+    # 射门相关-主队
+    shoot_total1 = scrapy.Field()                   # 射门数，详细分为 5 类
+    shoot_positional1 = scrapy.Field()              # 阵地战
+    shoot_placekick1 = scrapy.Field()               # 定位球
+    shoot_counterattack1 = scrapy.Field()           # 反击
+    penalty1 = scrapy.Field()                       # 点球
+    own_goal1 = scrapy.Field()                      # 乌龙球
+    shoot_on_target1 = scrapy.Field()               # 射正数
+    # 射门相关-客队
+    shoot_total2 = scrapy.Field()  # 射门数，详细分为 5 类
+    shoot_positional2 = scrapy.Field()  # 阵地战
+    shoot_placekick2 = scrapy.Field()  # 定位球
+    shoot_counterattack2 = scrapy.Field()  # 反击
+    penalty2 = scrapy.Field()  # 点球
+    own_goal2 = scrapy.Field()  # 乌龙球
+    shoot_on_target2 = scrapy.Field()  # 射正数
+
+    # 传球相关-主队
+    pass_total1 = scrapy.Field()                    # 传球数
+    pass_short1 = scrapy.Field()                    # 短传
+    pass_long1 = scrapy.Field()                     # 长传
+    pass_center1 = scrapy.Field()                   # 传中
+    pass_through1 = scrapy.Field()                  # 直塞
+    pass_completed_rate1 = scrapy.Field()           # 传球成功率
+    # 传球相关-客队
+    pass_total2 = scrapy.Field()  # 传球数
+    pass_short2 = scrapy.Field()  # 短传
+    pass_long2 = scrapy.Field()  # 长传
+    pass_center2 = scrapy.Field()  # 传中
+    pass_through2 = scrapy.Field()  # 直塞
+    pass_completed_rate2 = scrapy.Field()  # 传球成功率
 
     points = scrapy.Field()                        # 积分

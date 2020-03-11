@@ -31,7 +31,7 @@ class MatchInfo(scrapy.Spider):
     }
 
     def start_requests(self):
-        for i in range(12446, 12826):
+        for i in range(13586, 13966):
             time.sleep(1)
             url = 'http://www.tzuqiu.cc' + '/matches/' + str(i) + '/report.do'
             yield scrapy.Request(url, headers=self.header)

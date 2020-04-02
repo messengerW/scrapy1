@@ -16,11 +16,12 @@
     
 """
 import re
+from sklearn.linear_model import LinearRegression
 import time
 import scrapy
 from scrapy1.items import GameItem
 from fake_useragent import UserAgent
-
+# LinearRegression.score()
 class MatchInfo(scrapy.Spider):
 
     name = 'spider_match'

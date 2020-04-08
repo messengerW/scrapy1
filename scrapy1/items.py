@@ -71,6 +71,7 @@ class MaoItem(scrapy.Item):
 # 2019-2020赛季，球员，turn
 class PlayerTurnItem(scrapy.Item):
 
+    turn = scrapy.Field()                       # 轮次
     playerId = scrapy.Field()                   # 球员id
     matchId = scrapy.Field()                    # 比赛id
     teamId = scrapy.Field()                     # 球队id

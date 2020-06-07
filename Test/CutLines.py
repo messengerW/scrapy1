@@ -5,32 +5,26 @@
     Ps     : ...
     
 """
-import re
-lines = "(|1|2|3|4|5|6|7|8|9|1|2|3|4|5|6|7|8|9|10|)"
+# import re
+#
+# reg = re.compile(r'[+-]?\d+')
+#
+# print(re.match(reg,"+100"))
+# print(re.match(reg,"5e2"))
+# print(re.match(reg,"-123"))
+# print(re.match(reg,"3.1416"))
+# print(re.match(reg,"-1E-16"))
+# print(re.match(reg,"12e"))
+# print(re.match(reg,"1a3.14"))
+# print(re.match(reg,"1.2.3"))
+# print(re.match(reg,"+-5"))
+# print(re.match(reg,"12e+4.3"))
 
-# resault1 = lines.replace("|",")\n(")
-_list = lines.split("|")
-# print(resault1)
-print(_list,len(_list))
+import numpy as np
 
-# print(_list[0:3])
-# print('|'.join(_list[0:3]))
-# for i in range(0,int(1+len(_list)/3)):
-#     sss = '|'.join(_list[i*3:(i+1)*3])
-#     print(re.sub(r'\n',")\n(",sss))
-
-print(len(_list)/3)
-for i in range(1,int(len(_list)/3)):
-    _list.insert(i*3+i,")\n(")
-    newstr = '|'.join(_list)
-
-print("====")
-print(newstr)
-print("+++++++++")
-resault = re.sub(r'\(\|','(',newstr)
-resault = re.sub(r'\|\)',')',resault)
-# resault = re.sub(r'\n','-',resault)
-print(resault)
-
-_newlist = resault.split('\n')
-print(_newlist)
+a = np.array([[1,2,3,4,5], [6,7,8,9,10]])
+print(a[0:1])			# 截取第一行,返回 [[1 2 3 4 5]]
+print(a[1,2:5])			# 截取第二行，第三、四、五列，返回 [8 9 10]
+print(a[1,:])			# 截取第二行,返回 [ 6  7  8  9 10]
+print(type(a))
+print(a)
